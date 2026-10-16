@@ -1,0 +1,14 @@
+const fs = require('node:fs');
+const vm = require('node:vm');
+const assert = require('node:assert/strict');
+const html = fs.readFileSync('index.html', 'utf8');
+assert.equal((html.match(/data:font\//g) || []).length, 3);
+assert.equal((html.match(/src="data:image\/png/g) || []).length, 2);
+assert.ok(!html.includes('<script src='));
+assert.ok(!html.includes('url("assets/'));
+assert.ok(!html.includes('src="assets/'));
+assert.ok(html.includes('<title>5PEŇAZÍ — Investičný experiment</title>'));
+const scripts = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)];
+assert.equal(scripts.length, 2);
+scripts.forEach((script, i) => new vm.Script(script[1], { filename: `embedded-script-${i}.js` }));
+console.log('PASS: all 3 fonts and both logos embedded; no external assets; embedded scripts valid.');

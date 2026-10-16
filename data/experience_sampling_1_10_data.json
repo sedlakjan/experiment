@@ -1,0 +1,2165 @@
+{
+  "dataset": "S&P 500 Total Return nominal USD, calendar years 1966–2025",
+  "source": "https://pages.stern.nyu.edu/adamodar/New_Home_Page/datafile/histretSP.html",
+  "paper": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1616186",
+  "period": {
+    "first_year": 1966,
+    "last_year": 2025
+  },
+  "pedagogy": "Not an exact replication: the original study used MSCI USA and a 5-year horizon.",
+  "sample_mode": "paired_same_start",
+  "sample_no_replacement_per_round": true,
+  "comparison_horizons": [
+    1,
+    10
+  ],
+  "default_initial_investment": 100,
+  "default_draws": 3,
+  "annual_returns": [
+    {
+      "year": 1966,
+      "sp500_total_return": -0.0997
+    },
+    {
+      "year": 1967,
+      "sp500_total_return": 0.238
+    },
+    {
+      "year": 1968,
+      "sp500_total_return": 0.1081
+    },
+    {
+      "year": 1969,
+      "sp500_total_return": -0.0824
+    },
+    {
+      "year": 1970,
+      "sp500_total_return": 0.0356
+    },
+    {
+      "year": 1971,
+      "sp500_total_return": 0.1422
+    },
+    {
+      "year": 1972,
+      "sp500_total_return": 0.1876
+    },
+    {
+      "year": 1973,
+      "sp500_total_return": -0.1431
+    },
+    {
+      "year": 1974,
+      "sp500_total_return": -0.259
+    },
+    {
+      "year": 1975,
+      "sp500_total_return": 0.37
+    },
+    {
+      "year": 1976,
+      "sp500_total_return": 0.2383
+    },
+    {
+      "year": 1977,
+      "sp500_total_return": -0.0698
+    },
+    {
+      "year": 1978,
+      "sp500_total_return": 0.0651
+    },
+    {
+      "year": 1979,
+      "sp500_total_return": 0.1852
+    },
+    {
+      "year": 1980,
+      "sp500_total_return": 0.3174
+    },
+    {
+      "year": 1981,
+      "sp500_total_return": -0.047
+    },
+    {
+      "year": 1982,
+      "sp500_total_return": 0.2042
+    },
+    {
+      "year": 1983,
+      "sp500_total_return": 0.2234
+    },
+    {
+      "year": 1984,
+      "sp500_total_return": 0.0615
+    },
+    {
+      "year": 1985,
+      "sp500_total_return": 0.3124
+    },
+    {
+      "year": 1986,
+      "sp500_total_return": 0.1849
+    },
+    {
+      "year": 1987,
+      "sp500_total_return": 0.0581
+    },
+    {
+      "year": 1988,
+      "sp500_total_return": 0.1654
+    },
+    {
+      "year": 1989,
+      "sp500_total_return": 0.3148
+    },
+    {
+      "year": 1990,
+      "sp500_total_return": -0.0306
+    },
+    {
+      "year": 1991,
+      "sp500_total_return": 0.3023
+    },
+    {
+      "year": 1992,
+      "sp500_total_return": 0.0749
+    },
+    {
+      "year": 1993,
+      "sp500_total_return": 0.0997
+    },
+    {
+      "year": 1994,
+      "sp500_total_return": 0.0133
+    },
+    {
+      "year": 1995,
+      "sp500_total_return": 0.372
+    },
+    {
+      "year": 1996,
+      "sp500_total_return": 0.2268
+    },
+    {
+      "year": 1997,
+      "sp500_total_return": 0.331
+    },
+    {
+      "year": 1998,
+      "sp500_total_return": 0.2834
+    },
+    {
+      "year": 1999,
+      "sp500_total_return": 0.2089
+    },
+    {
+      "year": 2000,
+      "sp500_total_return": -0.0903
+    },
+    {
+      "year": 2001,
+      "sp500_total_return": -0.1185
+    },
+    {
+      "year": 2002,
+      "sp500_total_return": -0.2197
+    },
+    {
+      "year": 2003,
+      "sp500_total_return": 0.2836
+    },
+    {
+      "year": 2004,
+      "sp500_total_return": 0.1074
+    },
+    {
+      "year": 2005,
+      "sp500_total_return": 0.0483
+    },
+    {
+      "year": 2006,
+      "sp500_total_return": 0.1561
+    },
+    {
+      "year": 2007,
+      "sp500_total_return": 0.0548
+    },
+    {
+      "year": 2008,
+      "sp500_total_return": -0.3655
+    },
+    {
+      "year": 2009,
+      "sp500_total_return": 0.2594
+    },
+    {
+      "year": 2010,
+      "sp500_total_return": 0.1482
+    },
+    {
+      "year": 2011,
+      "sp500_total_return": 0.021
+    },
+    {
+      "year": 2012,
+      "sp500_total_return": 0.1589
+    },
+    {
+      "year": 2013,
+      "sp500_total_return": 0.3215
+    },
+    {
+      "year": 2014,
+      "sp500_total_return": 0.1352
+    },
+    {
+      "year": 2015,
+      "sp500_total_return": 0.0138
+    },
+    {
+      "year": 2016,
+      "sp500_total_return": 0.1177
+    },
+    {
+      "year": 2017,
+      "sp500_total_return": 0.2161
+    },
+    {
+      "year": 2018,
+      "sp500_total_return": -0.0423
+    },
+    {
+      "year": 2019,
+      "sp500_total_return": 0.3121
+    },
+    {
+      "year": 2020,
+      "sp500_total_return": 0.1802
+    },
+    {
+      "year": 2021,
+      "sp500_total_return": 0.2847
+    },
+    {
+      "year": 2022,
+      "sp500_total_return": -0.1804
+    },
+    {
+      "year": 2023,
+      "sp500_total_return": 0.2606
+    },
+    {
+      "year": 2024,
+      "sp500_total_return": 0.2488
+    },
+    {
+      "year": 2025,
+      "sp500_total_return": 0.1778
+    }
+  ],
+  "paired_scenarios_1_vs_10": [
+    {
+      "start_year": 1966,
+      "one_year": {
+        "start_year": 1966,
+        "end_year": 1966,
+        "factor": 0.9003,
+        "cumulative_return": -0.09970000000000001,
+        "terminal_100": 90.03,
+        "annualized_return": -0.09970000000000001
+      },
+      "ten_year": {
+        "start_year": 1966,
+        "end_year": 1975,
+        "factor": 1.3848845144388862,
+        "cumulative_return": 0.38488451443888616,
+        "terminal_100": 138.4884514438886,
+        "annualized_return": 0.03309760779292947
+      }
+    },
+    {
+      "start_year": 1967,
+      "one_year": {
+        "start_year": 1967,
+        "end_year": 1967,
+        "factor": 1.238,
+        "cumulative_return": 0.238,
+        "terminal_100": 123.8,
+        "annualized_return": 0.238
+      },
+      "ten_year": {
+        "start_year": 1967,
+        "end_year": 1976,
+        "factor": 1.904812278384619,
+        "cumulative_return": 0.9048122783846191,
+        "terminal_100": 190.4812278384619,
+        "annualized_return": 0.06655981877231243
+      }
+    },
+    {
+      "start_year": 1968,
+      "one_year": {
+        "start_year": 1968,
+        "end_year": 1968,
+        "factor": 1.1081,
+        "cumulative_return": 0.10810000000000008,
+        "terminal_100": 110.81,
+        "annualized_return": 0.10810000000000008
+      },
+      "ten_year": {
+        "start_year": 1968,
+        "end_year": 1977,
+        "factor": 1.4312248637749378,
+        "cumulative_return": 0.43122486377493785,
+        "terminal_100": 143.12248637749377,
+        "annualized_return": 0.03650353413947238
+      }
+    },
+    {
+      "start_year": 1969,
+      "one_year": {
+        "start_year": 1969,
+        "end_year": 1969,
+        "factor": 0.9176,
+        "cumulative_return": -0.08240000000000003,
+        "terminal_100": 91.75999999999999,
+        "annualized_return": -0.08240000000000003
+      },
+      "ten_year": {
+        "start_year": 1969,
+        "end_year": 1978,
+        "factor": 1.3756859510934807,
+        "cumulative_return": 0.3756859510934807,
+        "terminal_100": 137.56859510934808,
+        "annualized_return": 0.032409352721400886
+      }
+    },
+    {
+      "start_year": 1970,
+      "one_year": {
+        "start_year": 1970,
+        "end_year": 1970,
+        "factor": 1.0356,
+        "cumulative_return": 0.035600000000000076,
+        "terminal_100": 103.56,
+        "annualized_return": 0.035600000000000076
+      },
+      "ten_year": {
+        "start_year": 1970,
+        "end_year": 1979,
+        "factor": 1.7768777127680835,
+        "cumulative_return": 0.7768777127680835,
+        "terminal_100": 177.68777127680835,
+        "annualized_return": 0.059170201746773676
+      }
+    },
+    {
+      "start_year": 1971,
+      "one_year": {
+        "start_year": 1971,
+        "end_year": 1971,
+        "factor": 1.1421999999999999,
+        "cumulative_return": 0.14219999999999988,
+        "terminal_100": 114.21999999999998,
+        "annualized_return": 0.14219999999999988
+      },
+      "ten_year": {
+        "start_year": 1971,
+        "end_year": 1980,
+        "factor": 2.2603888555433307,
+        "cumulative_return": 1.2603888555433307,
+        "terminal_100": 226.03888555433306,
+        "annualized_return": 0.08497146363123975
+      }
+    },
+    {
+      "start_year": 1972,
+      "one_year": {
+        "start_year": 1972,
+        "end_year": 1972,
+        "factor": 1.1876,
+        "cumulative_return": 0.1876,
+        "terminal_100": 118.76,
+        "annualized_return": 0.1876
+      },
+      "ten_year": {
+        "start_year": 1972,
+        "end_year": 1981,
+        "factor": 1.8859661874739924,
+        "cumulative_return": 0.8859661874739924,
+        "terminal_100": 188.59661874739925,
+        "annualized_return": 0.06549984340524428
+      }
+    },
+    {
+      "start_year": 1973,
+      "one_year": {
+        "start_year": 1973,
+        "end_year": 1973,
+        "factor": 0.8569,
+        "cumulative_return": -0.1431,
+        "terminal_100": 85.69,
+        "annualized_return": -0.1431
+      },
+      "ten_year": {
+        "start_year": 1973,
+        "end_year": 1982,
+        "factor": 1.9123277896229212,
+        "cumulative_return": 0.9123277896229212,
+        "terminal_100": 191.23277896229212,
+        "annualized_return": 0.06697988882152317
+      }
+    },
+    {
+      "start_year": 1974,
+      "one_year": {
+        "start_year": 1974,
+        "end_year": 1974,
+        "factor": 0.741,
+        "cumulative_return": -0.259,
+        "terminal_100": 74.1,
+        "annualized_return": -0.259
+      },
+      "ten_year": {
+        "start_year": 1974,
+        "end_year": 1983,
+        "factor": 2.7302390218516535,
+        "cumulative_return": 1.7302390218516535,
+        "terminal_100": 273.02390218516535,
+        "annualized_return": 0.10565610165066475
+      }
+    },
+    {
+      "start_year": 1975,
+      "one_year": {
+        "start_year": 1975,
+        "end_year": 1975,
+        "factor": 1.37,
+        "cumulative_return": 0.3700000000000001,
+        "terminal_100": 137.0,
+        "annualized_return": 0.3700000000000001
+      },
+      "ten_year": {
+        "start_year": 1975,
+        "end_year": 1984,
+        "factor": 3.91113187813162,
+        "cumulative_return": 2.91113187813162,
+        "terminal_100": 391.11318781316197,
+        "annualized_return": 0.14612040876127264
+      }
+    },
+    {
+      "start_year": 1976,
+      "one_year": {
+        "start_year": 1976,
+        "end_year": 1976,
+        "factor": 1.2383,
+        "cumulative_return": 0.23829999999999996,
+        "terminal_100": 123.83,
+        "annualized_return": 0.23829999999999996
+      },
+      "ten_year": {
+        "start_year": 1976,
+        "end_year": 1985,
+        "factor": 3.746693048802876,
+        "cumulative_return": 2.746693048802876,
+        "terminal_100": 374.6693048802876,
+        "annualized_return": 0.14120801053270138
+      }
+    },
+    {
+      "start_year": 1977,
+      "one_year": {
+        "start_year": 1977,
+        "end_year": 1977,
+        "factor": 0.9302,
+        "cumulative_return": -0.06979999999999997,
+        "terminal_100": 93.02,
+        "annualized_return": -0.06979999999999997
+      },
+      "ten_year": {
+        "start_year": 1977,
+        "end_year": 1986,
+        "factor": 3.5851220168993994,
+        "cumulative_return": 2.5851220168993994,
+        "terminal_100": 358.51220168993996,
+        "annualized_return": 0.13618851278756772
+      }
+    },
+    {
+      "start_year": 1978,
+      "one_year": {
+        "start_year": 1978,
+        "end_year": 1978,
+        "factor": 1.0651,
+        "cumulative_return": 0.06509999999999994,
+        "terminal_100": 106.50999999999999,
+        "annualized_return": 0.06509999999999994
+      },
+      "ten_year": {
+        "start_year": 1978,
+        "end_year": 1987,
+        "factor": 4.0780666588704095,
+        "cumulative_return": 3.0780666588704095,
+        "terminal_100": 407.80666588704094,
+        "annualized_return": 0.15092078176642798
+      }
+    },
+    {
+      "start_year": 1979,
+      "one_year": {
+        "start_year": 1979,
+        "end_year": 1979,
+        "factor": 1.1852,
+        "cumulative_return": 0.18520000000000003,
+        "terminal_100": 118.52000000000001,
+        "annualized_return": 0.18520000000000003
+      },
+      "ten_year": {
+        "start_year": 1979,
+        "end_year": 1988,
+        "factor": 4.462096408081472,
+        "cumulative_return": 3.4620964080814716,
+        "terminal_100": 446.2096408081471,
+        "annualized_return": 0.16132532004812372
+      }
+    },
+    {
+      "start_year": 1980,
+      "one_year": {
+        "start_year": 1980,
+        "end_year": 1980,
+        "factor": 1.3174000000000001,
+        "cumulative_return": 0.3174000000000001,
+        "terminal_100": 131.74,
+        "annualized_return": 0.3174000000000001
+      },
+      "ten_year": {
+        "start_year": 1980,
+        "end_year": 1989,
+        "factor": 4.950020551253391,
+        "cumulative_return": 3.950020551253391,
+        "terminal_100": 495.0020551253391,
+        "annualized_return": 0.17343949182221619
+      }
+    },
+    {
+      "start_year": 1981,
+      "one_year": {
+        "start_year": 1981,
+        "end_year": 1981,
+        "factor": 0.953,
+        "cumulative_return": -0.04700000000000004,
+        "terminal_100": 95.3,
+        "annualized_return": -0.04700000000000004
+      },
+      "ten_year": {
+        "start_year": 1981,
+        "end_year": 1990,
+        "factor": 3.642439594948411,
+        "cumulative_return": 2.642439594948411,
+        "terminal_100": 364.2439594948411,
+        "annualized_return": 0.13799207027334126
+      }
+    },
+    {
+      "start_year": 1982,
+      "one_year": {
+        "start_year": 1982,
+        "end_year": 1982,
+        "factor": 1.2042,
+        "cumulative_return": 0.20419999999999994,
+        "terminal_100": 120.41999999999999,
+        "annualized_return": 0.20419999999999994
+      },
+      "ten_year": {
+        "start_year": 1982,
+        "end_year": 1991,
+        "factor": 4.977491169466229,
+        "cumulative_return": 3.977491169466229,
+        "terminal_100": 497.7491169466229,
+        "annualized_return": 0.17408908283737912
+      }
+    },
+    {
+      "start_year": 1983,
+      "one_year": {
+        "start_year": 1983,
+        "end_year": 1983,
+        "factor": 1.2234,
+        "cumulative_return": 0.22340000000000004,
+        "terminal_100": 122.34,
+        "annualized_return": 0.22340000000000004
+      },
+      "ten_year": {
+        "start_year": 1983,
+        "end_year": 1992,
+        "factor": 4.443037085250996,
+        "cumulative_return": 3.443037085250996,
+        "terminal_100": 444.3037085250996,
+        "annualized_return": 0.16082831747341841
+      }
+    },
+    {
+      "start_year": 1984,
+      "one_year": {
+        "start_year": 1984,
+        "end_year": 1984,
+        "factor": 1.0615,
+        "cumulative_return": 0.06150000000000011,
+        "terminal_100": 106.15,
+        "annualized_return": 0.06150000000000011
+      },
+      "ten_year": {
+        "start_year": 1984,
+        "end_year": 1993,
+        "factor": 3.9937942477117216,
+        "cumulative_return": 2.9937942477117216,
+        "terminal_100": 399.3794247711722,
+        "annualized_return": 0.14852001701931994
+      }
+    },
+    {
+      "start_year": 1985,
+      "one_year": {
+        "start_year": 1985,
+        "end_year": 1985,
+        "factor": 1.3124,
+        "cumulative_return": 0.3124,
+        "terminal_100": 131.24,
+        "annualized_return": 0.3124
+      },
+      "ten_year": {
+        "start_year": 1985,
+        "end_year": 1994,
+        "factor": 3.8124462658561344,
+        "cumulative_return": 2.8124462658561344,
+        "terminal_100": 381.24462658561345,
+        "annualized_return": 0.14319514956100066
+      }
+    },
+    {
+      "start_year": 1986,
+      "one_year": {
+        "start_year": 1986,
+        "end_year": 1986,
+        "factor": 1.1849,
+        "cumulative_return": 0.18490000000000006,
+        "terminal_100": 118.49000000000001,
+        "annualized_return": 0.18490000000000006
+      },
+      "ten_year": {
+        "start_year": 1986,
+        "end_year": 1995,
+        "factor": 3.9855808265426824,
+        "cumulative_return": 2.9855808265426824,
+        "terminal_100": 398.5580826542682,
+        "annualized_return": 0.1482835997326617
+      }
+    },
+    {
+      "start_year": 1987,
+      "one_year": {
+        "start_year": 1987,
+        "end_year": 1987,
+        "factor": 1.0581,
+        "cumulative_return": 0.05810000000000004,
+        "terminal_100": 105.81,
+        "annualized_return": 0.05810000000000004
+      },
+      "ten_year": {
+        "start_year": 1987,
+        "end_year": 1996,
+        "factor": 4.126517476582464,
+        "cumulative_return": 3.126517476582464,
+        "terminal_100": 412.6517476582464,
+        "annualized_return": 0.15228091517437492
+      }
+    },
+    {
+      "start_year": 1988,
+      "one_year": {
+        "start_year": 1988,
+        "end_year": 1988,
+        "factor": 1.1654,
+        "cumulative_return": 0.1654,
+        "terminal_100": 116.53999999999999,
+        "annualized_return": 0.1654
+      },
+      "ten_year": {
+        "start_year": 1988,
+        "end_year": 1997,
+        "factor": 5.190808771695738,
+        "cumulative_return": 4.190808771695738,
+        "terminal_100": 519.0808771695738,
+        "annualized_return": 0.17902632762114612
+      }
+    },
+    {
+      "start_year": 1989,
+      "one_year": {
+        "start_year": 1989,
+        "end_year": 1989,
+        "factor": 1.3148,
+        "cumulative_return": 0.31479999999999997,
+        "terminal_100": 131.48,
+        "annualized_return": 0.31479999999999997
+      },
+      "ten_year": {
+        "start_year": 1989,
+        "end_year": 1998,
+        "factor": 5.716392635656691,
+        "cumulative_return": 4.716392635656691,
+        "terminal_100": 571.6392635656691,
+        "annualized_return": 0.1904528665253289
+      }
+    },
+    {
+      "start_year": 1990,
+      "one_year": {
+        "start_year": 1990,
+        "end_year": 1990,
+        "factor": 0.9694,
+        "cumulative_return": -0.03059999999999996,
+        "terminal_100": 96.94,
+        "annualized_return": -0.03059999999999996
+      },
+      "ten_year": {
+        "start_year": 1990,
+        "end_year": 1999,
+        "factor": 5.255968251631713,
+        "cumulative_return": 4.255968251631713,
+        "terminal_100": 525.5968251631713,
+        "annualized_return": 0.18049804808321057
+      }
+    },
+    {
+      "start_year": 1991,
+      "one_year": {
+        "start_year": 1991,
+        "end_year": 1991,
+        "factor": 1.3023,
+        "cumulative_return": 0.3023,
+        "terminal_100": 130.23,
+        "annualized_return": 0.3023
+      },
+      "ten_year": {
+        "start_year": 1991,
+        "end_year": 2000,
+        "factor": 4.93228215237195,
+        "cumulative_return": 3.9322821523719496,
+        "terminal_100": 493.22821523719495,
+        "annualized_return": 0.17301831014065705
+      }
+    },
+    {
+      "start_year": 1992,
+      "one_year": {
+        "start_year": 1992,
+        "end_year": 1992,
+        "factor": 1.0749,
+        "cumulative_return": 0.07489999999999997,
+        "terminal_100": 107.49,
+        "annualized_return": 0.07489999999999997
+      },
+      "ten_year": {
+        "start_year": 1992,
+        "end_year": 2001,
+        "factor": 3.338560022510845,
+        "cumulative_return": 2.338560022510845,
+        "terminal_100": 333.8560022510845,
+        "annualized_return": 0.12812161085237572
+      }
+    },
+    {
+      "start_year": 1993,
+      "one_year": {
+        "start_year": 1993,
+        "end_year": 1993,
+        "factor": 1.0997,
+        "cumulative_return": 0.0996999999999999,
+        "terminal_100": 109.96999999999998,
+        "annualized_return": 0.0996999999999999
+      },
+      "ten_year": {
+        "start_year": 1993,
+        "end_year": 2002,
+        "factor": 2.423554177658585,
+        "cumulative_return": 1.423554177658585,
+        "terminal_100": 242.3554177658585,
+        "annualized_return": 0.0925599417997156
+      }
+    },
+    {
+      "start_year": 1994,
+      "one_year": {
+        "start_year": 1994,
+        "end_year": 1994,
+        "factor": 1.0133,
+        "cumulative_return": 0.01330000000000009,
+        "terminal_100": 101.33000000000001,
+        "annualized_return": 0.01330000000000009
+      },
+      "ten_year": {
+        "start_year": 1994,
+        "end_year": 2003,
+        "factor": 2.8288389037397095,
+        "cumulative_return": 1.8288389037397095,
+        "terminal_100": 282.8838903739709,
+        "annualized_return": 0.10958562477215894
+      }
+    },
+    {
+      "start_year": 1995,
+      "one_year": {
+        "start_year": 1995,
+        "end_year": 1995,
+        "factor": 1.3719999999999999,
+        "cumulative_return": 0.3719999999999999,
+        "terminal_100": 137.2,
+        "annualized_return": 0.3719999999999999
+      },
+      "ten_year": {
+        "start_year": 1995,
+        "end_year": 2004,
+        "factor": 3.091538736801889,
+        "cumulative_return": 2.091538736801889,
+        "terminal_100": 309.1538736801889,
+        "annualized_return": 0.11948291314262494
+      }
+    },
+    {
+      "start_year": 1996,
+      "one_year": {
+        "start_year": 1996,
+        "end_year": 1996,
+        "factor": 1.2268,
+        "cumulative_return": 0.2267999999999999,
+        "terminal_100": 122.67999999999999,
+        "annualized_return": 0.2267999999999999
+      },
+      "ten_year": {
+        "start_year": 1996,
+        "end_year": 2005,
+        "factor": 2.362142899263427,
+        "cumulative_return": 1.3621428992634268,
+        "terminal_100": 236.21428992634267,
+        "annualized_return": 0.08975938211728773
+      }
+    },
+    {
+      "start_year": 1997,
+      "one_year": {
+        "start_year": 1997,
+        "end_year": 1997,
+        "factor": 1.331,
+        "cumulative_return": 0.33099999999999996,
+        "terminal_100": 133.1,
+        "annualized_return": 0.33099999999999996
+      },
+      "ten_year": {
+        "start_year": 1997,
+        "end_year": 2006,
+        "factor": 2.226013535897007,
+        "cumulative_return": 1.2260135358970068,
+        "terminal_100": 222.6013535897007,
+        "annualized_return": 0.08331006974899369
+      }
+    },
+    {
+      "start_year": 1998,
+      "one_year": {
+        "start_year": 1998,
+        "end_year": 1998,
+        "factor": 1.2833999999999999,
+        "cumulative_return": 0.2833999999999999,
+        "terminal_100": 128.33999999999997,
+        "annualized_return": 0.2833999999999999
+      },
+      "ten_year": {
+        "start_year": 1998,
+        "end_year": 2007,
+        "factor": 1.7640864595523382,
+        "cumulative_return": 0.7640864595523382,
+        "terminal_100": 176.40864595523382,
+        "annualized_return": 0.058405253016188485
+      }
+    },
+    {
+      "start_year": 1999,
+      "one_year": {
+        "start_year": 1999,
+        "end_year": 1999,
+        "factor": 1.2089,
+        "cumulative_return": 0.20890000000000009,
+        "terminal_100": 120.89000000000001,
+        "annualized_return": 0.20890000000000009
+      },
+      "ten_year": {
+        "start_year": 1999,
+        "end_year": 2008,
+        "factor": 0.8721465315458617,
+        "cumulative_return": -0.12785346845413825,
+        "terminal_100": 87.21465315458617,
+        "annualized_return": -0.013586639822537605
+      }
+    },
+    {
+      "start_year": 2000,
+      "one_year": {
+        "start_year": 2000,
+        "end_year": 2000,
+        "factor": 0.9097,
+        "cumulative_return": -0.09030000000000005,
+        "terminal_100": 90.97,
+        "annualized_return": -0.09030000000000005
+      },
+      "ten_year": {
+        "start_year": 2000,
+        "end_year": 2009,
+        "factor": 0.9085791561161868,
+        "cumulative_return": -0.09142084388381322,
+        "terminal_100": 90.85791561161868,
+        "annualized_return": -0.009541514763216519
+      }
+    },
+    {
+      "start_year": 2001,
+      "one_year": {
+        "start_year": 2001,
+        "end_year": 2001,
+        "factor": 0.8815,
+        "cumulative_return": -0.11850000000000005,
+        "terminal_100": 88.14999999999999,
+        "annualized_return": -0.11850000000000005
+      },
+      "ten_year": {
+        "start_year": 2001,
+        "end_year": 2010,
+        "factor": 1.1467852996071295,
+        "cumulative_return": 0.1467852996071295,
+        "terminal_100": 114.67852996071295,
+        "annualized_return": 0.013790487129813789
+      }
+    },
+    {
+      "start_year": 2002,
+      "one_year": {
+        "start_year": 2002,
+        "end_year": 2002,
+        "factor": 0.7803,
+        "cumulative_return": -0.2197,
+        "terminal_100": 78.03,
+        "annualized_return": -0.2197
+      },
+      "ten_year": {
+        "start_year": 2002,
+        "end_year": 2011,
+        "factor": 1.3282674882573788,
+        "cumulative_return": 0.32826748825737884,
+        "terminal_100": 132.8267488257379,
+        "annualized_return": 0.02879431153772516
+      }
+    },
+    {
+      "start_year": 2003,
+      "one_year": {
+        "start_year": 2003,
+        "end_year": 2003,
+        "factor": 1.2836,
+        "cumulative_return": 0.2836000000000001,
+        "terminal_100": 128.36,
+        "annualized_return": 0.2836000000000001
+      },
+      "ten_year": {
+        "start_year": 2003,
+        "end_year": 2012,
+        "factor": 1.9727402180462341,
+        "cumulative_return": 0.9727402180462341,
+        "terminal_100": 197.2740218046234,
+        "annualized_return": 0.0703036090349769
+      }
+    },
+    {
+      "start_year": 2004,
+      "one_year": {
+        "start_year": 2004,
+        "end_year": 2004,
+        "factor": 1.1074,
+        "cumulative_return": 0.10739999999999994,
+        "terminal_100": 110.74,
+        "annualized_return": 0.10739999999999994
+      },
+      "ten_year": {
+        "start_year": 2004,
+        "end_year": 2013,
+        "factor": 2.0309880010502477,
+        "cumulative_return": 1.0309880010502477,
+        "terminal_100": 203.09880010502476,
+        "annualized_return": 0.07342260250752775
+      }
+    },
+    {
+      "start_year": 2005,
+      "one_year": {
+        "start_year": 2005,
+        "end_year": 2005,
+        "factor": 1.0483,
+        "cumulative_return": 0.04830000000000001,
+        "terminal_100": 104.83,
+        "annualized_return": 0.04830000000000001
+      },
+      "ten_year": {
+        "start_year": 2005,
+        "end_year": 2014,
+        "factor": 2.0819736127797017,
+        "cumulative_return": 1.0819736127797017,
+        "terminal_100": 208.19736127797017,
+        "annualized_return": 0.07608734017692464
+      }
+    },
+    {
+      "start_year": 2006,
+      "one_year": {
+        "start_year": 2006,
+        "end_year": 2006,
+        "factor": 1.1561,
+        "cumulative_return": 0.1560999999999999,
+        "terminal_100": 115.60999999999999,
+        "annualized_return": 0.1560999999999999
+      },
+      "ten_year": {
+        "start_year": 2006,
+        "end_year": 2015,
+        "factor": 2.013454973419881,
+        "cumulative_return": 1.013454973419881,
+        "terminal_100": 201.3454973419881,
+        "annualized_return": 0.07249232312768172
+      }
+    },
+    {
+      "start_year": 2007,
+      "one_year": {
+        "start_year": 2007,
+        "end_year": 2007,
+        "factor": 1.0548,
+        "cumulative_return": 0.05479999999999996,
+        "terminal_100": 105.47999999999999,
+        "annualized_return": 0.05479999999999996
+      },
+      "ten_year": {
+        "start_year": 2007,
+        "end_year": 2016,
+        "factor": 1.9465778252671921,
+        "cumulative_return": 0.9465778252671921,
+        "terminal_100": 194.65778252671922,
+        "annualized_return": 0.06887563432251365
+      }
+    },
+    {
+      "start_year": 2008,
+      "one_year": {
+        "start_year": 2008,
+        "end_year": 2008,
+        "factor": 0.6345000000000001,
+        "cumulative_return": -0.36549999999999994,
+        "terminal_100": 63.45,
+        "annualized_return": -0.36549999999999994
+      },
+      "ten_year": {
+        "start_year": 2008,
+        "end_year": 2017,
+        "factor": 2.244248476779894,
+        "cumulative_return": 1.244248476779894,
+        "terminal_100": 224.4248476779894,
+        "annualized_return": 0.08419423559412831
+      }
+    },
+    {
+      "start_year": 2009,
+      "one_year": {
+        "start_year": 2009,
+        "end_year": 2009,
+        "factor": 1.2594,
+        "cumulative_return": 0.2594000000000001,
+        "terminal_100": 125.94000000000001,
+        "annualized_return": 0.2594000000000001
+      },
+      "ten_year": {
+        "start_year": 2009,
+        "end_year": 2018,
+        "factor": 3.387418071256272,
+        "cumulative_return": 2.387418071256272,
+        "terminal_100": 338.7418071256272,
+        "annualized_return": 0.12976178416893958
+      }
+    },
+    {
+      "start_year": 2010,
+      "one_year": {
+        "start_year": 2010,
+        "end_year": 2010,
+        "factor": 1.1482,
+        "cumulative_return": 0.1482000000000001,
+        "terminal_100": 114.82000000000001,
+        "annualized_return": 0.1482000000000001
+      },
+      "ten_year": {
+        "start_year": 2010,
+        "end_year": 2019,
+        "factor": 3.529165675159087,
+        "cumulative_return": 2.529165675159087,
+        "terminal_100": 352.9165675159087,
+        "annualized_return": 0.13440257763267716
+      }
+    },
+    {
+      "start_year": 2011,
+      "one_year": {
+        "start_year": 2011,
+        "end_year": 2011,
+        "factor": 1.021,
+        "cumulative_return": 0.020999999999999908,
+        "terminal_100": 102.1,
+        "annualized_return": 0.020999999999999908
+      },
+      "ten_year": {
+        "start_year": 2011,
+        "end_year": 2020,
+        "factor": 3.6275224959264536,
+        "cumulative_return": 2.6275224959264536,
+        "terminal_100": 362.75224959264534,
+        "annualized_return": 0.13752516050690056
+      }
+    },
+    {
+      "start_year": 2012,
+      "one_year": {
+        "start_year": 2012,
+        "end_year": 2012,
+        "factor": 1.1589,
+        "cumulative_return": 0.15890000000000004,
+        "terminal_100": 115.89,
+        "annualized_return": 0.15890000000000004
+      },
+      "ten_year": {
+        "start_year": 2012,
+        "end_year": 2021,
+        "factor": 4.56442522087827,
+        "cumulative_return": 3.5644252208782703,
+        "terminal_100": 456.442522087827,
+        "annualized_return": 0.1639614842303212
+      }
+    },
+    {
+      "start_year": 2013,
+      "one_year": {
+        "start_year": 2013,
+        "end_year": 2013,
+        "factor": 1.3215,
+        "cumulative_return": 0.3214999999999999,
+        "terminal_100": 132.14999999999998,
+        "annualized_return": 0.3214999999999999
+      },
+      "ten_year": {
+        "start_year": 2013,
+        "end_year": 2022,
+        "factor": 3.228063604307387,
+        "cumulative_return": 2.228063604307387,
+        "terminal_100": 322.80636043073866,
+        "annualized_return": 0.12433105993769744
+      }
+    },
+    {
+      "start_year": 2014,
+      "one_year": {
+        "start_year": 2014,
+        "end_year": 2014,
+        "factor": 1.1352,
+        "cumulative_return": 0.1352,
+        "terminal_100": 113.52,
+        "annualized_return": 0.1352
+      },
+      "ten_year": {
+        "start_year": 2014,
+        "end_year": 2023,
+        "factor": 3.0793015358228475,
+        "cumulative_return": 2.0793015358228475,
+        "terminal_100": 307.93015358228473,
+        "annualized_return": 0.11903899826450148
+      }
+    },
+    {
+      "start_year": 2015,
+      "one_year": {
+        "start_year": 2015,
+        "end_year": 2015,
+        "factor": 1.0138,
+        "cumulative_return": 0.013800000000000034,
+        "terminal_100": 101.38000000000001,
+        "annualized_return": 0.013800000000000034
+      },
+      "ten_year": {
+        "start_year": 2015,
+        "end_year": 2024,
+        "factor": 3.3874486944464155,
+        "cumulative_return": 2.3874486944464155,
+        "terminal_100": 338.74486944464155,
+        "annualized_return": 0.1297628055004807
+      }
+    },
+    {
+      "start_year": 2016,
+      "one_year": {
+        "start_year": 2016,
+        "end_year": 2016,
+        "factor": 1.1177,
+        "cumulative_return": 0.11769999999999992,
+        "terminal_100": 111.77,
+        "annualized_return": 0.11769999999999992
+      },
+      "ten_year": {
+        "start_year": 2016,
+        "end_year": 2025,
+        "factor": 3.9354281636604727,
+        "cumulative_return": 2.9354281636604727,
+        "terminal_100": 393.54281636604725,
+        "annualized_return": 0.14683040605526076
+      }
+    }
+  ],
+  "separate_1y_scenarios": [
+    {
+      "start_year": 1966,
+      "end_year": 1966,
+      "factor": 0.9003,
+      "cumulative_return": -0.09970000000000001,
+      "terminal_100": 90.03,
+      "annualized_return": -0.09970000000000001
+    },
+    {
+      "start_year": 1967,
+      "end_year": 1967,
+      "factor": 1.238,
+      "cumulative_return": 0.238,
+      "terminal_100": 123.8,
+      "annualized_return": 0.238
+    },
+    {
+      "start_year": 1968,
+      "end_year": 1968,
+      "factor": 1.1081,
+      "cumulative_return": 0.10810000000000008,
+      "terminal_100": 110.81,
+      "annualized_return": 0.10810000000000008
+    },
+    {
+      "start_year": 1969,
+      "end_year": 1969,
+      "factor": 0.9176,
+      "cumulative_return": -0.08240000000000003,
+      "terminal_100": 91.75999999999999,
+      "annualized_return": -0.08240000000000003
+    },
+    {
+      "start_year": 1970,
+      "end_year": 1970,
+      "factor": 1.0356,
+      "cumulative_return": 0.035600000000000076,
+      "terminal_100": 103.56,
+      "annualized_return": 0.035600000000000076
+    },
+    {
+      "start_year": 1971,
+      "end_year": 1971,
+      "factor": 1.1421999999999999,
+      "cumulative_return": 0.14219999999999988,
+      "terminal_100": 114.21999999999998,
+      "annualized_return": 0.14219999999999988
+    },
+    {
+      "start_year": 1972,
+      "end_year": 1972,
+      "factor": 1.1876,
+      "cumulative_return": 0.1876,
+      "terminal_100": 118.76,
+      "annualized_return": 0.1876
+    },
+    {
+      "start_year": 1973,
+      "end_year": 1973,
+      "factor": 0.8569,
+      "cumulative_return": -0.1431,
+      "terminal_100": 85.69,
+      "annualized_return": -0.1431
+    },
+    {
+      "start_year": 1974,
+      "end_year": 1974,
+      "factor": 0.741,
+      "cumulative_return": -0.259,
+      "terminal_100": 74.1,
+      "annualized_return": -0.259
+    },
+    {
+      "start_year": 1975,
+      "end_year": 1975,
+      "factor": 1.37,
+      "cumulative_return": 0.3700000000000001,
+      "terminal_100": 137.0,
+      "annualized_return": 0.3700000000000001
+    },
+    {
+      "start_year": 1976,
+      "end_year": 1976,
+      "factor": 1.2383,
+      "cumulative_return": 0.23829999999999996,
+      "terminal_100": 123.83,
+      "annualized_return": 0.23829999999999996
+    },
+    {
+      "start_year": 1977,
+      "end_year": 1977,
+      "factor": 0.9302,
+      "cumulative_return": -0.06979999999999997,
+      "terminal_100": 93.02,
+      "annualized_return": -0.06979999999999997
+    },
+    {
+      "start_year": 1978,
+      "end_year": 1978,
+      "factor": 1.0651,
+      "cumulative_return": 0.06509999999999994,
+      "terminal_100": 106.50999999999999,
+      "annualized_return": 0.06509999999999994
+    },
+    {
+      "start_year": 1979,
+      "end_year": 1979,
+      "factor": 1.1852,
+      "cumulative_return": 0.18520000000000003,
+      "terminal_100": 118.52000000000001,
+      "annualized_return": 0.18520000000000003
+    },
+    {
+      "start_year": 1980,
+      "end_year": 1980,
+      "factor": 1.3174000000000001,
+      "cumulative_return": 0.3174000000000001,
+      "terminal_100": 131.74,
+      "annualized_return": 0.3174000000000001
+    },
+    {
+      "start_year": 1981,
+      "end_year": 1981,
+      "factor": 0.953,
+      "cumulative_return": -0.04700000000000004,
+      "terminal_100": 95.3,
+      "annualized_return": -0.04700000000000004
+    },
+    {
+      "start_year": 1982,
+      "end_year": 1982,
+      "factor": 1.2042,
+      "cumulative_return": 0.20419999999999994,
+      "terminal_100": 120.41999999999999,
+      "annualized_return": 0.20419999999999994
+    },
+    {
+      "start_year": 1983,
+      "end_year": 1983,
+      "factor": 1.2234,
+      "cumulative_return": 0.22340000000000004,
+      "terminal_100": 122.34,
+      "annualized_return": 0.22340000000000004
+    },
+    {
+      "start_year": 1984,
+      "end_year": 1984,
+      "factor": 1.0615,
+      "cumulative_return": 0.06150000000000011,
+      "terminal_100": 106.15,
+      "annualized_return": 0.06150000000000011
+    },
+    {
+      "start_year": 1985,
+      "end_year": 1985,
+      "factor": 1.3124,
+      "cumulative_return": 0.3124,
+      "terminal_100": 131.24,
+      "annualized_return": 0.3124
+    },
+    {
+      "start_year": 1986,
+      "end_year": 1986,
+      "factor": 1.1849,
+      "cumulative_return": 0.18490000000000006,
+      "terminal_100": 118.49000000000001,
+      "annualized_return": 0.18490000000000006
+    },
+    {
+      "start_year": 1987,
+      "end_year": 1987,
+      "factor": 1.0581,
+      "cumulative_return": 0.05810000000000004,
+      "terminal_100": 105.81,
+      "annualized_return": 0.05810000000000004
+    },
+    {
+      "start_year": 1988,
+      "end_year": 1988,
+      "factor": 1.1654,
+      "cumulative_return": 0.1654,
+      "terminal_100": 116.53999999999999,
+      "annualized_return": 0.1654
+    },
+    {
+      "start_year": 1989,
+      "end_year": 1989,
+      "factor": 1.3148,
+      "cumulative_return": 0.31479999999999997,
+      "terminal_100": 131.48,
+      "annualized_return": 0.31479999999999997
+    },
+    {
+      "start_year": 1990,
+      "end_year": 1990,
+      "factor": 0.9694,
+      "cumulative_return": -0.03059999999999996,
+      "terminal_100": 96.94,
+      "annualized_return": -0.03059999999999996
+    },
+    {
+      "start_year": 1991,
+      "end_year": 1991,
+      "factor": 1.3023,
+      "cumulative_return": 0.3023,
+      "terminal_100": 130.23,
+      "annualized_return": 0.3023
+    },
+    {
+      "start_year": 1992,
+      "end_year": 1992,
+      "factor": 1.0749,
+      "cumulative_return": 0.07489999999999997,
+      "terminal_100": 107.49,
+      "annualized_return": 0.07489999999999997
+    },
+    {
+      "start_year": 1993,
+      "end_year": 1993,
+      "factor": 1.0997,
+      "cumulative_return": 0.0996999999999999,
+      "terminal_100": 109.96999999999998,
+      "annualized_return": 0.0996999999999999
+    },
+    {
+      "start_year": 1994,
+      "end_year": 1994,
+      "factor": 1.0133,
+      "cumulative_return": 0.01330000000000009,
+      "terminal_100": 101.33000000000001,
+      "annualized_return": 0.01330000000000009
+    },
+    {
+      "start_year": 1995,
+      "end_year": 1995,
+      "factor": 1.3719999999999999,
+      "cumulative_return": 0.3719999999999999,
+      "terminal_100": 137.2,
+      "annualized_return": 0.3719999999999999
+    },
+    {
+      "start_year": 1996,
+      "end_year": 1996,
+      "factor": 1.2268,
+      "cumulative_return": 0.2267999999999999,
+      "terminal_100": 122.67999999999999,
+      "annualized_return": 0.2267999999999999
+    },
+    {
+      "start_year": 1997,
+      "end_year": 1997,
+      "factor": 1.331,
+      "cumulative_return": 0.33099999999999996,
+      "terminal_100": 133.1,
+      "annualized_return": 0.33099999999999996
+    },
+    {
+      "start_year": 1998,
+      "end_year": 1998,
+      "factor": 1.2833999999999999,
+      "cumulative_return": 0.2833999999999999,
+      "terminal_100": 128.33999999999997,
+      "annualized_return": 0.2833999999999999
+    },
+    {
+      "start_year": 1999,
+      "end_year": 1999,
+      "factor": 1.2089,
+      "cumulative_return": 0.20890000000000009,
+      "terminal_100": 120.89000000000001,
+      "annualized_return": 0.20890000000000009
+    },
+    {
+      "start_year": 2000,
+      "end_year": 2000,
+      "factor": 0.9097,
+      "cumulative_return": -0.09030000000000005,
+      "terminal_100": 90.97,
+      "annualized_return": -0.09030000000000005
+    },
+    {
+      "start_year": 2001,
+      "end_year": 2001,
+      "factor": 0.8815,
+      "cumulative_return": -0.11850000000000005,
+      "terminal_100": 88.14999999999999,
+      "annualized_return": -0.11850000000000005
+    },
+    {
+      "start_year": 2002,
+      "end_year": 2002,
+      "factor": 0.7803,
+      "cumulative_return": -0.2197,
+      "terminal_100": 78.03,
+      "annualized_return": -0.2197
+    },
+    {
+      "start_year": 2003,
+      "end_year": 2003,
+      "factor": 1.2836,
+      "cumulative_return": 0.2836000000000001,
+      "terminal_100": 128.36,
+      "annualized_return": 0.2836000000000001
+    },
+    {
+      "start_year": 2004,
+      "end_year": 2004,
+      "factor": 1.1074,
+      "cumulative_return": 0.10739999999999994,
+      "terminal_100": 110.74,
+      "annualized_return": 0.10739999999999994
+    },
+    {
+      "start_year": 2005,
+      "end_year": 2005,
+      "factor": 1.0483,
+      "cumulative_return": 0.04830000000000001,
+      "terminal_100": 104.83,
+      "annualized_return": 0.04830000000000001
+    },
+    {
+      "start_year": 2006,
+      "end_year": 2006,
+      "factor": 1.1561,
+      "cumulative_return": 0.1560999999999999,
+      "terminal_100": 115.60999999999999,
+      "annualized_return": 0.1560999999999999
+    },
+    {
+      "start_year": 2007,
+      "end_year": 2007,
+      "factor": 1.0548,
+      "cumulative_return": 0.05479999999999996,
+      "terminal_100": 105.47999999999999,
+      "annualized_return": 0.05479999999999996
+    },
+    {
+      "start_year": 2008,
+      "end_year": 2008,
+      "factor": 0.6345000000000001,
+      "cumulative_return": -0.36549999999999994,
+      "terminal_100": 63.45,
+      "annualized_return": -0.36549999999999994
+    },
+    {
+      "start_year": 2009,
+      "end_year": 2009,
+      "factor": 1.2594,
+      "cumulative_return": 0.2594000000000001,
+      "terminal_100": 125.94000000000001,
+      "annualized_return": 0.2594000000000001
+    },
+    {
+      "start_year": 2010,
+      "end_year": 2010,
+      "factor": 1.1482,
+      "cumulative_return": 0.1482000000000001,
+      "terminal_100": 114.82000000000001,
+      "annualized_return": 0.1482000000000001
+    },
+    {
+      "start_year": 2011,
+      "end_year": 2011,
+      "factor": 1.021,
+      "cumulative_return": 0.020999999999999908,
+      "terminal_100": 102.1,
+      "annualized_return": 0.020999999999999908
+    },
+    {
+      "start_year": 2012,
+      "end_year": 2012,
+      "factor": 1.1589,
+      "cumulative_return": 0.15890000000000004,
+      "terminal_100": 115.89,
+      "annualized_return": 0.15890000000000004
+    },
+    {
+      "start_year": 2013,
+      "end_year": 2013,
+      "factor": 1.3215,
+      "cumulative_return": 0.3214999999999999,
+      "terminal_100": 132.14999999999998,
+      "annualized_return": 0.3214999999999999
+    },
+    {
+      "start_year": 2014,
+      "end_year": 2014,
+      "factor": 1.1352,
+      "cumulative_return": 0.1352,
+      "terminal_100": 113.52,
+      "annualized_return": 0.1352
+    },
+    {
+      "start_year": 2015,
+      "end_year": 2015,
+      "factor": 1.0138,
+      "cumulative_return": 0.013800000000000034,
+      "terminal_100": 101.38000000000001,
+      "annualized_return": 0.013800000000000034
+    },
+    {
+      "start_year": 2016,
+      "end_year": 2016,
+      "factor": 1.1177,
+      "cumulative_return": 0.11769999999999992,
+      "terminal_100": 111.77,
+      "annualized_return": 0.11769999999999992
+    },
+    {
+      "start_year": 2017,
+      "end_year": 2017,
+      "factor": 1.2161,
+      "cumulative_return": 0.21609999999999996,
+      "terminal_100": 121.61,
+      "annualized_return": 0.21609999999999996
+    },
+    {
+      "start_year": 2018,
+      "end_year": 2018,
+      "factor": 0.9577,
+      "cumulative_return": -0.042300000000000004,
+      "terminal_100": 95.77,
+      "annualized_return": -0.042300000000000004
+    },
+    {
+      "start_year": 2019,
+      "end_year": 2019,
+      "factor": 1.3121,
+      "cumulative_return": 0.31210000000000004,
+      "terminal_100": 131.21,
+      "annualized_return": 0.31210000000000004
+    },
+    {
+      "start_year": 2020,
+      "end_year": 2020,
+      "factor": 1.1802,
+      "cumulative_return": 0.18019999999999992,
+      "terminal_100": 118.02,
+      "annualized_return": 0.18019999999999992
+    },
+    {
+      "start_year": 2021,
+      "end_year": 2021,
+      "factor": 1.2847,
+      "cumulative_return": 0.28469999999999995,
+      "terminal_100": 128.47,
+      "annualized_return": 0.28469999999999995
+    },
+    {
+      "start_year": 2022,
+      "end_year": 2022,
+      "factor": 0.8196,
+      "cumulative_return": -0.1804,
+      "terminal_100": 81.96,
+      "annualized_return": -0.1804
+    },
+    {
+      "start_year": 2023,
+      "end_year": 2023,
+      "factor": 1.2606,
+      "cumulative_return": 0.26059999999999994,
+      "terminal_100": 126.05999999999999,
+      "annualized_return": 0.26059999999999994
+    },
+    {
+      "start_year": 2024,
+      "end_year": 2024,
+      "factor": 1.2488,
+      "cumulative_return": 0.2487999999999999,
+      "terminal_100": 124.88,
+      "annualized_return": 0.2487999999999999
+    },
+    {
+      "start_year": 2025,
+      "end_year": 2025,
+      "factor": 1.1778,
+      "cumulative_return": 0.17779999999999996,
+      "terminal_100": 117.78,
+      "annualized_return": 0.17779999999999996
+    }
+  ],
+  "optional_original_horizon_5y": [
+    {
+      "start_year": 1966,
+      "end_year": 1970,
+      "factor": 1.1736329566018568,
+      "cumulative_return": 0.17363295660185685,
+      "terminal_100": 117.36329566018568,
+      "annualized_return": 0.03253898789847365
+    },
+    {
+      "start_year": 1967,
+      "end_year": 1971,
+      "factor": 1.4889743008226601,
+      "cumulative_return": 0.48897430082266014,
+      "terminal_100": 148.89743008226603,
+      "annualized_return": 0.08287278835105094
+    },
+    {
+      "start_year": 1968,
+      "end_year": 1972,
+      "factor": 1.428356930256051,
+      "cumulative_return": 0.42835693025605104,
+      "terminal_100": 142.8356930256051,
+      "annualized_return": 0.073908671656018
+    },
+    {
+      "start_year": 1969,
+      "end_year": 1973,
+      "factor": 1.1045564962877086,
+      "cumulative_return": 0.10455649628770858,
+      "terminal_100": 110.45564962877086,
+      "annualized_return": 0.02008787823302849
+    },
+    {
+      "start_year": 1970,
+      "end_year": 1974,
+      "factor": 0.8919751130658152,
+      "cumulative_return": -0.10802488693418477,
+      "terminal_100": 89.19751130658152,
+      "annualized_return": -0.022604022229520848
+    },
+    {
+      "start_year": 1971,
+      "end_year": 1975,
+      "factor": 1.1799979769217526,
+      "cumulative_return": 0.17999797692175257,
+      "terminal_100": 117.99979769217526,
+      "annualized_return": 0.03365652990956769
+    },
+    {
+      "start_year": 1972,
+      "end_year": 1976,
+      "factor": 1.279278142901599,
+      "cumulative_return": 0.2792781429015989,
+      "terminal_100": 127.92781429015989,
+      "annualized_return": 0.05049259641276671
+    },
+    {
+      "start_year": 1973,
+      "end_year": 1977,
+      "factor": 1.0020078549402722,
+      "cumulative_return": 0.0020078549402722246,
+      "terminal_100": 100.20078549402723,
+      "annualized_return": 0.00040124885753445305
+    },
+    {
+      "start_year": 1974,
+      "end_year": 1978,
+      "factor": 1.2454645423000161,
+      "cumulative_return": 0.24546454230001613,
+      "terminal_100": 124.54645423000161,
+      "annualized_return": 0.04487965628303958
+    },
+    {
+      "start_year": 1975,
+      "end_year": 1979,
+      "factor": 1.9920709521376236,
+      "cumulative_return": 0.9920709521376236,
+      "terminal_100": 199.20709521376236,
+      "annualized_return": 0.14778609875939352
+    },
+    {
+      "start_year": 1976,
+      "end_year": 1980,
+      "factor": 1.915587060106647,
+      "cumulative_return": 0.9155870601066469,
+      "terminal_100": 191.55870601066468,
+      "annualized_return": 0.13883388033847366
+    },
+    {
+      "start_year": 1977,
+      "end_year": 1981,
+      "factor": 1.4742424842781507,
+      "cumulative_return": 0.47424248427815074,
+      "terminal_100": 147.4242484278151,
+      "annualized_return": 0.0807214826390974
+    },
+    {
+      "start_year": 1978,
+      "end_year": 1982,
+      "factor": 1.9084958068885711,
+      "cumulative_return": 0.9084958068885711,
+      "terminal_100": 190.84958068885712,
+      "annualized_return": 0.1379894661764003
+    },
+    {
+      "start_year": 1979,
+      "end_year": 1983,
+      "factor": 2.192145122662171,
+      "cumulative_return": 1.192145122662171,
+      "terminal_100": 219.2145122662171,
+      "annualized_return": 0.16996766830169596
+    },
+    {
+      "start_year": 1980,
+      "end_year": 1984,
+      "factor": 1.963349685880775,
+      "cumulative_return": 0.9633496858807751,
+      "terminal_100": 196.33496858807752,
+      "annualized_return": 0.14445713604558175
+    },
+    {
+      "start_year": 1981,
+      "end_year": 1985,
+      "factor": 1.9558980778426667,
+      "cumulative_return": 0.9558980778426667,
+      "terminal_100": 195.58980778426667,
+      "annualized_return": 0.14358709008282422
+    },
+    {
+      "start_year": 1982,
+      "end_year": 1986,
+      "factor": 2.4318401179808773,
+      "cumulative_return": 1.4318401179808773,
+      "terminal_100": 243.18401179808774,
+      "annualized_return": 0.19450233693700358
+    },
+    {
+      "start_year": 1983,
+      "end_year": 1987,
+      "factor": 2.136796237199441,
+      "cumulative_return": 1.136796237199441,
+      "terminal_100": 213.6796237199441,
+      "annualized_return": 0.16399903977363883
+    },
+    {
+      "start_year": 1984,
+      "end_year": 1988,
+      "factor": 2.035493162360821,
+      "cumulative_return": 1.035493162360821,
+      "terminal_100": 203.5493162360821,
+      "annualized_return": 0.15274681132222345
+    },
+    {
+      "start_year": 1985,
+      "end_year": 1989,
+      "factor": 2.521211879295343,
+      "cumulative_return": 1.5212118792953429,
+      "terminal_100": 252.12118792953427,
+      "annualized_return": 0.20315579989807397
+    },
+    {
+      "start_year": 1986,
+      "end_year": 1990,
+      "factor": 1.862284970884567,
+      "cumulative_return": 0.862284970884567,
+      "terminal_100": 186.2284970884567,
+      "annualized_return": 0.132424424195986
+    },
+    {
+      "start_year": 1987,
+      "end_year": 1991,
+      "factor": 2.0468003355413718,
+      "cumulative_return": 1.0468003355413718,
+      "terminal_100": 204.68003355413717,
+      "annualized_return": 0.15402467773540862
+    },
+    {
+      "start_year": 1988,
+      "end_year": 1992,
+      "factor": 2.0792984412375204,
+      "cumulative_return": 1.0792984412375204,
+      "terminal_100": 207.92984412375205,
+      "annualized_return": 0.15766623219055087
+    },
+    {
+      "start_year": 1989,
+      "end_year": 1993,
+      "factor": 1.9620769657018196,
+      "cumulative_return": 0.9620769657018196,
+      "terminal_100": 196.20769657018195,
+      "annualized_return": 0.14430872116751003
+    },
+    {
+      "start_year": 1990,
+      "end_year": 1994,
+      "factor": 1.5121483034268746,
+      "cumulative_return": 0.5121483034268746,
+      "terminal_100": 151.21483034268746,
+      "annualized_return": 0.0862227070596453
+    },
+    {
+      "start_year": 1991,
+      "end_year": 1995,
+      "factor": 2.140156253663783,
+      "cumulative_return": 1.140156253663783,
+      "terminal_100": 214.01562536637832,
+      "annualized_return": 0.16436487702140923
+    },
+    {
+      "start_year": 1992,
+      "end_year": 1996,
+      "factor": 2.0160820793939407,
+      "cumulative_return": 1.0160820793939407,
+      "terminal_100": 201.60820793939408,
+      "annualized_return": 0.15053978748582542
+    },
+    {
+      "start_year": 1993,
+      "end_year": 1997,
+      "factor": 2.4964231534778447,
+      "cumulative_return": 1.4964231534778447,
+      "terminal_100": 249.64231534778446,
+      "annualized_return": 0.2007805380946761
+    },
+    {
+      "start_year": 1994,
+      "end_year": 1998,
+      "factor": 2.9134395518536556,
+      "cumulative_return": 1.9134395518536556,
+      "terminal_100": 291.34395518536553,
+      "annualized_return": 0.23845777035803772
+    },
+    {
+      "start_year": 1995,
+      "end_year": 1999,
+      "factor": 3.475828554461546,
+      "cumulative_return": 2.475828554461546,
+      "terminal_100": 347.5828554461546,
+      "annualized_return": 0.2829557258111597
+    },
+    {
+      "start_year": 1996,
+      "end_year": 2000,
+      "factor": 2.3046364693831403,
+      "cumulative_return": 1.3046364693831403,
+      "terminal_100": 230.463646938314,
+      "annualized_return": 0.18173605463362197
+    },
+    {
+      "start_year": 1997,
+      "end_year": 2001,
+      "factor": 1.6559643362905434,
+      "cumulative_return": 0.6559643362905434,
+      "terminal_100": 165.59643362905433,
+      "annualized_return": 0.10614025061505128
+    },
+    {
+      "start_year": 1998,
+      "end_year": 2002,
+      "factor": 0.9708106473384754,
+      "cumulative_return": -0.02918935266152456,
+      "terminal_100": 97.08106473384754,
+      "annualized_return": -0.005907250695896038
+    },
+    {
+      "start_year": 1999,
+      "end_year": 2003,
+      "factor": 0.9709619346452139,
+      "cumulative_return": -0.029038065354786147,
+      "terminal_100": 97.09619346452139,
+      "annualized_return": -0.005876269527471556
+    },
+    {
+      "start_year": 2000,
+      "end_year": 2004,
+      "factor": 0.8894393634098019,
+      "cumulative_return": -0.1105606365901981,
+      "terminal_100": 88.94393634098019,
+      "annualized_return": -0.02316037287574757
+    },
+    {
+      "start_year": 2001,
+      "end_year": 2005,
+      "factor": 1.0249524949571238,
+      "cumulative_return": 0.024952494957123816,
+      "terminal_100": 102.49524949571239,
+      "annualized_return": 0.00494142178038337
+    },
+    {
+      "start_year": 2002,
+      "end_year": 2006,
+      "factor": 1.344240022030551,
+      "cumulative_return": 0.34424002203055104,
+      "terminal_100": 134.4240022030551,
+      "annualized_return": 0.06095109238365559
+    },
+    {
+      "start_year": 2003,
+      "end_year": 2007,
+      "factor": 1.8171272270124632,
+      "cumulative_return": 0.8171272270124632,
+      "terminal_100": 181.71272270124632,
+      "annualized_return": 0.12687843301990887
+    },
+    {
+      "start_year": 2004,
+      "end_year": 2008,
+      "factor": 0.8982293748359365,
+      "cumulative_return": -0.10177062516406354,
+      "terminal_100": 89.82293748359365,
+      "annualized_return": -0.021237208899440585
+    },
+    {
+      "start_year": 2005,
+      "end_year": 2009,
+      "factor": 1.021518940462686,
+      "cumulative_return": 0.021518940462686098,
+      "terminal_100": 102.15189404626861,
+      "annualized_return": 0.004267214123532925
+    },
+    {
+      "start_year": 2006,
+      "end_year": 2010,
+      "factor": 1.1188667818747078,
+      "cumulative_return": 0.11886678187470778,
+      "terminal_100": 111.88667818747078,
+      "annualized_return": 0.022717473396684396
+    },
+    {
+      "start_year": 2007,
+      "end_year": 2011,
+      "factor": 0.9881177962927745,
+      "cumulative_return": -0.01188220370722548,
+      "terminal_100": 98.81177962927745,
+      "annualized_return": -0.0023878168837944136
+    },
+    {
+      "start_year": 2008,
+      "end_year": 2012,
+      "factor": 1.0856368165753663,
+      "cumulative_return": 0.08563681657536626,
+      "terminal_100": 108.56368165753662,
+      "annualized_return": 0.016569118678889216
+    },
+    {
+      "start_year": 2009,
+      "end_year": 2013,
+      "factor": 2.261101738541129,
+      "cumulative_return": 1.2611017385411292,
+      "terminal_100": 226.11017385411293,
+      "annualized_return": 0.17723731842974355
+    },
+    {
+      "start_year": 2010,
+      "end_year": 2014,
+      "factor": 2.038115526117111,
+      "cumulative_return": 1.038115526117111,
+      "terminal_100": 203.8115526117111,
+      "annualized_return": 0.15304367941519748
+    },
+    {
+      "start_year": 2011,
+      "end_year": 2015,
+      "factor": 1.7995484413669458,
+      "cumulative_return": 0.7995484413669458,
+      "terminal_100": 179.9548441366946,
+      "annualized_return": 0.12468967538766673
+    },
+    {
+      "start_year": 2012,
+      "end_year": 2016,
+      "factor": 1.9699855954121797,
+      "cumulative_return": 0.9699855954121797,
+      "terminal_100": 196.99855954121796,
+      "annualized_return": 0.14522972051081484
+    },
+    {
+      "start_year": 2013,
+      "end_year": 2017,
+      "factor": 2.067218468013419,
+      "cumulative_return": 1.0672184680134191,
+      "terminal_100": 206.7218468013419,
+      "annualized_return": 0.15631797080670728
+    },
+    {
+      "start_year": 2014,
+      "end_year": 2018,
+      "factor": 1.4981272242273564,
+      "cumulative_return": 0.49812722422735645,
+      "terminal_100": 149.81272242273565,
+      "annualized_return": 0.08420083953085955
+    },
+    {
+      "start_year": 2015,
+      "end_year": 2019,
+      "factor": 1.7315827439294524,
+      "cumulative_return": 0.7315827439294524,
+      "terminal_100": 173.15827439294523,
+      "annualized_return": 0.1160628440306255
+    },
+    {
+      "start_year": 2016,
+      "end_year": 2020,
+      "factor": 2.015795969999546,
+      "cumulative_return": 1.0157959699995458,
+      "terminal_100": 201.5795969999546,
+      "annualized_return": 0.15050713019147843
+    },
+    {
+      "start_year": 2017,
+      "end_year": 2021,
+      "factor": 2.3169840589231607,
+      "cumulative_return": 1.3169840589231607,
+      "terminal_100": 231.69840589231606,
+      "annualized_return": 0.18299963099748995
+    },
+    {
+      "start_year": 2018,
+      "end_year": 2022,
+      "factor": 1.561549325461247,
+      "cumulative_return": 0.5615493254612469,
+      "terminal_100": 156.15493254612468,
+      "annualized_return": 0.09322899432126808
+    },
+    {
+      "start_year": 2019,
+      "end_year": 2023,
+      "factor": 2.0554339351325552,
+      "cumulative_return": 1.0554339351325552,
+      "terminal_100": 205.54339351325552,
+      "annualized_return": 0.15499659655186626
+    },
+    {
+      "start_year": 2020,
+      "end_year": 2024,
+      "factor": 1.9562730723218766,
+      "cumulative_return": 0.9562730723218766,
+      "terminal_100": 195.62730723218766,
+      "annualized_return": 0.14363093755793277
+    },
+    {
+      "start_year": 2021,
+      "end_year": 2025,
+      "factor": 1.952294886104649,
+      "cumulative_return": 0.952294886104649,
+      "terminal_100": 195.2294886104649,
+      "annualized_return": 0.14316543178135976
+    }
+  ],
+  "risk_free_reference_annual_rate": 0.0335,
+  "note": "Historical overlapping windows are not independent. Do not equate frequencies to future outcome probabilities."
+}

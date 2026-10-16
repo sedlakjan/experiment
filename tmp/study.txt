@@ -1,0 +1,1526 @@
+
+--- PAGE 1 ---
+Electronic copy available at: http://ssrn.com/abstract=1616186
+* Emily Haisley is from Yale School of Management, Ne w Haven, USA. E-Mail: Emily.Haisley@yale.edu. Christine 
+Kaufmann is from the Lehrstuhl für Bankbetriebslehre,  Universität Mannheim, Mannheim, Germany. E.Mail: 
+kaufmann@bank.BWL.uni-mannheim.de. Martin Weber is from  the Lehrstuhl für Bankbetriebslehre, Universität 
+Mannheim, Mannheim, Germany, and CEPR, London. E-Ma il: weber@bank.BWL.uni-mannheim.de. We thank Philipp 
+Schaber and Dominic Hiller for programming the Risk Tool. 
+ 
+ 
+ 
+ 
+How much risk can I handle?  
+The role of experience sampling and graphical displays on one's investment 
+risk appetite and comprehension 
+ 
+ 
+ 
+ 
+Emily Haisley, Christine Kaufmann, Martin Weber 
+ 
+ 
+ 
+ 
+July 2010 
+ 
+ 
+ 
+ 
+ 
+Abstract 
+ 
+Financial professionals have a great deal of discretion concerning how to relay information about the risk 
+of financial products to their clients. This paper examines how different risk presentation modes influence 
+how well investors understand the risk-return profile of financial products and how much risk they are 
+willing to accept. We analyze four different ways of communicating risk: (i) numerical descriptions, (ii) 
+experience sampling, (iii) graphical displays, and (iv) a combination of these formats in a ‘risk tool 
+simulation’. Participants receive information about a risky and a risk free fund and make an allocation in 
+an experimental investment portfolio. We find that risky allocations are elevated in both the risk tool 
+simulation and experience sampling conditions. Greater risky allocations are mediated by decreased risk 
+perception, increased confidence in the risky fund, and a lower estimation of the probability of a loss. 
+Despite these indicators of optimism about the risk y fund, participants in the risk tool simulation 
+underestimate the probability of a high gain and are more accurate on comprehension questions on the 
+expected return and the probability of a loss. We find no evidence of greater dissatisfaction with returns in 
+these conditions and observe a willingness to take on similar levels of risk in subsequent allocations. Our 
+paper has important implications for the current debate about regulating the communications between 
+financial advisors and their clients. 
+ 
+Keywords: Risk Taking, Risk Attitude, Risk Per ception, Presentation Mode, Risk Comprehension, 
+Experience-Description Gap 
+ 
+
+--- PAGE 2 ---
+Electronic copy available at: http://ssrn.com/abstract=1616186
+2 
+ 
+1. INTRODCUTION 
+ 
+One of the most important financial decisions is how much risk to bear in one’s investment portfolio. For 
+example, with a $100,000 retirement portfolio investing $50,000 instead of $40,000 to an equity fund as 
+opposed to a money market results in an expected return of $100,000 more over a 30 year time horizon.
+1 
+Though taking on more risk is certainly not a panacea for everyone’s retirement portfolio, the ability to 
+accurately assess both the upside potential and downside risk involved in such a decision would 
+undoubtedly help people to make more informed financial decisions that better suit their preferences.  
+The manner in which people acquire knowledge about risk of investment products may affect 
+how well they comprehend risk and have a dramatic influence on this crucial decision. The decision 
+making literature distinguishes between two fundamentally distinct ways in which people learn about 
+risk: description vs. experience. Decisions from description are based on explicitly stated probabilities 
+associated with outcomes. Decisions from experience are based on sampling possible outcomes, meaning 
+that the underlying probabilities must be judged or inferred based on the observed evidence. In an 
+investment context, risk can be described in summary form, e.g., historical returns or factsheets. 
+Alternatively, knowledge about risk can be acquired through experience, through feedback about the 
+outcomes of previous decisions or observing outcomes in the market.  
+The literature on the ‘experience-description gap’ documents situations in which these two 
+decision modes lead to different decisions. These findings raise the issue of what is the best way to 
+present information about the riskiness of investment products. As empirical researchers, it may seem 
+intuitive to us that risk should be described in summary statistical form. However, this is not obvious 
+from this literature. Decision-making from experience can reduce or reverse decision-making biases, such 
+as overweighting of rare event in prospect theory (Baron & Erev 2003). 
+We contribute to the existing literature by extending the literature on the experience-description 
+gap to in the domain of investment decision making. This is a more complex decision making task than 
+what has been examined so far in the literature since outcomes are continuous. The question of how risk 
+presentation format influences investing is important since financial professionals have a great deal of 
+discretion concerning how to relay this information to their clients. At worst they do not assess risk 
+preferences at all or ask irrelevant questions about risk-seeing in other domains, such as “Are you a 
+bungee jumper?” At best they ask clients how willing they are to take financial risks on a 1-5 scale. 
+                                                           
+ 
+1 For the return on the MSCI US, we calculated the average return based on the historical returns from 1973 to 2008 
+of 8.95%. For the risk free return, we assumed an interest rate of 3.35%. 
+
+--- PAGE 3 ---
+3 
+ 
+Our research question has important implications for policy making. In the EU, advisors are 
+legally obliged to assess customers’ risk preferences and issue ‘ appropriate guidance on and warnings of 
+the risks associated with investments’ during the advisory process. 2 Similarly, the Securities and 
+Exchange Commission in the US instructs banks to inform their clients about past performance of 
+investment products and their special risks. Nevertheless, there is little instruction about how risk 
+information should be presented. Research is needed to elucidate the implications of risk presentation 
+format on risk taking and comprehension.  
+With this end in mind, we developed a ‘risk tool simulation’ to more completely inform investors 
+about the risk of investment products.
+3 The risk tool is a simulation that incorporates both experience 
+sampling based on the historical distribution of the MSCI and a graphical display of the full historical 
+distribution. The simulation forces participants to sample several possible outcomes for a five-year 
+investment in a stock fund – the “risky fund”. Each sa mpled outcome is used to build up the distribution 
+and then the entire distribution is shown. Participants are also shown the expected five-year return of a 
+risk free fund. Finally, participants make an allocation between the risky fund and the risk free fund. We 
+contrast this simulation with a numerical description of the expected value and variance of the return of 
+the risky fund. Further, we also break-down the si mulation into its constituent parts with a pure 
+experience sampling and a pure distribution condition. These different risk presentation modes are tested 
+in an incentive compatible experimental investment portfolio, conducted online with participants drawn 
+from a German university and the general population in the United States. 
+We find that the risk tool simulation increases the propensity to take financial risks. This effect 
+appears to be driven more by experience sampling than the displays of historical distributions. Thus, a 
+main contribution of this paper is an extension of the literature on the experience-description gap to show 
+that experience sampling leads to greater risk taking in the context of investing, in which outcomes are 
+continuously distributed. We document three psychological mechanisms that underlie this effect: reduced 
+overweighting of rare events, lower risk perception, and higher confidence about investing in the risky 
+fund. 
+                                                           
+ 
+2 See Article 19 of the Markets in Financial Instruments Directive (MiFID) of the European Union (The European 
+Parliament and the European Council, 2004). 
+3 Goldstein, Johnson, and Sharpe (2006) introduce a similar tool the so called “distribution builder”. This tool elicits 
+clients’ preferences without requiring them to engage in complicated computations by using a graphical displays, 
+frequency information, and experience sample. The aim is to elicit preferences, such as the coefficient of relative 
+risk aversion and the loss aversion parameter for a sample of adults saving for retirement. 
+
+--- PAGE 4 ---
+4 
+ 
+A second major contribution of this paper is improving risk communication to give investors a 
+greater appreciation for potential benefits and the risks of investment products. We asses participant’s 
+comprehension of the risk-return profile of the risky investment product by asking them questions about 
+the expected return and the probabilities associated with different outcomes. The risk tool simulation 
+enhances comprehension of the stock fund along two dimensions: the expected return and the perceived 
+probability of a loss.  
+Another potential benefit of the risk tool simulation  is that it leads participants to be less reactive 
+when they receive a return that falls below expectatio ns. Instead of accepting lower risk in a subsequent 
+allocation decision, akin to pulling out of the market after a downturn, participants in the risk tool 
+condition are more likely to “stay the course” and make a consistent subsequent allocation decision. 
+The remainder of this paper proceeds as follows: in Section 2 we provide a literature review and 
+formulate our hypotheses. Section 3 describes our experimental paradigm. Our main results are presented 
+in Section 4. We describe how four different types of presentation formats influence people’s investment 
+allocation decisions: i) numerical description, ii) experience sampling, iii) graphical displays of 
+distributions, and iv) a combination of these with the risk tool simulation. Section 5 explores 
+comprehension and underlying psychological factors that affect the allocation decision. Section 6 
+examines whether the increased risk taking with the risk simulation tool leads to decision regret by 
+analyzing satisfaction with returns and a subsequent allocation decision. Section 7 examines the 
+robustness of the experience-description gap that we observe for investment decisions and shows that it 
+cannot be accounted for by sampling error or recency effects. Section 8 provides a discussion of our 
+conclusions.  
+ 
+ 
+2. LITERATURE REVIEW AND HYPOTHESIS 
+ 
+Research on risk presentation format addresses the question of whether risk taking behavior varies 
+depending on whether the risk is experienced instead of simply described. Experiencing the risk means 
+that the probabilities associated with outcomes are not known or explicitly stated. Rather, they have to be 
+learned either through feedback from previous decisions or through experience-sampling, i.e. allowing 
+people to sample possible outcomes before making a choice. This mirrors many decisions in everyday 
+life, for which people often do not have access to exact statistical probabilities and have to estimate risk 
+based on personal experience and external information. For example, people draw on their own and 
+other’s past experiences when deciding whether to back up their hard drive, purchase insurance, or how 
+cautiously to drive. Most are not aware of the probability of whether the S&P 500 will go up or down 
+
+--- PAGE 5 ---
+5 
+ 
+over the next year. Rather, their intuition about this derives from their appreciation of the volatility they 
+have experienced in the past. 
+ Given identical underlying probability distri butions, decisions based on description and 
+experience can be substantially different, particularly for decisions that involve rare events. Hertwig, 
+Barron, Weber and Erev (2004) demonstrate that decisions based on numerical descriptions, which 
+explicitly give information about outcomes and probabili ties, differ significantly from decisions based on 
+experience, in which probabilities are learned through pushing buttons to sample possible outcomes. In 
+contrast to the overweighting of small probabilities that occurs with numerical descriptions, described by 
+the probability weighting function of prospect theory (Kahneman and Tversky 1979), their results suggest 
+that people underweight small probabilities if they experience the risk through sampling. For example, in 
+the descriptive condition of Hertwig et al. (2004), 36% choose to gamble on a .8 chance to win 4 points 
+(.2 chance of 0 points) over a sure gain of 3 points, while in the experience condition 88% chose to 
+gamble.  
+This effect has been observed in many studies, despite little consensus about the underlying 
+mechanisms behind it (e.g., Barron & Erev 2003, Weber, Shafir, & Blais 2004, Hau, Pleskac, Kiefer and 
+Hertwig 2008, see Rakow and Newell 2008 for review). In description based decisions, rare events are 
+overweighted, which induces risk seeking in the domain of gains (e.g., preference for a 10% chance of 
+winning $10 over a sure gain of $1) and risk aversion in the domain of losses (preference for a sure loss 
+of $1 over a 10% of losing $10), consistent with prospect theory. In experienced based decisions, the rare 
+events are not overweighted, leading to risk aversion for gains and risk seeking for losses. Several studies 
+on experience-description gap claim that it can be explained by sampling error (rare events are not 
+observed due to a small number of draws ending up in a discrepancy between objective and experienced 
+probability) and recency effects (overweighting of rec ently sampled information). We will address these 
+questions in our in Section 7. 
+Though the literature is clear on the point that experience sampling leads to greater risk taking 
+among experimental lotteries that have a small probability of a loss, it has not been tested whether this 
+phenomena also occurs in more contextualized domains. The decision to invest in an equity fund over a 
+multi-year time horizon fits the risk profile of a sma ll probability of a loss. For example, over a five-year 
+time horizon, the probability of a loss is < 20%.
+4 Thus, in this context experience sampling is expected to 
+increase risky allocations. 
+                                                            
+4 Based on the historical returns of the MSCI USA (1973-2008) the probability of getting less than your invested 
+capital is 16%. 
+
+--- PAGE 6 ---
+6 
+ 
+In addition to experience sampling, the risk tool simulation we test displays return distributions. 
+Previous research in the myopic loss aversion literature suggests that this may also increase risk taking. 
+Benarzti and Thaler (1999) offer participants 100 repeated plays of a gamble with a positive expected 
+value and later show them distribution of returns graphically. Many who initially decline the gamble 
+subsequently accept it after seeing the return distribution. The authors hypothesize that the reversal in 
+preference is due to the tendency to overestimate the probability of a loss until viewing the return 
+distribution. They recommend that investors should be presented with aggregated distributions that reflect 
+the range of possible outcomes of their investment decisions because people seem unable to comprehend 
+the characteristics of this distribution from descri ptions of probabilities. Using a different graphical 
+presentation format , Beshears, Choi, Laibson and Mandrian (2010) also found that distributions can 
+increase risk taking. The graphs they used showed the historical percentage returns of equity funds over a 
+30 year time horizon, ordered by lowest return to highest return. These displays increased allocation to 
+equities by 11- 12%.  
+Based on the research summarized above, we hypothesized in Experiment I that riskier 
+allocations would be made in the risk simulation tool, which incorporates both experience sampling and 
+distributions of returns, compared to a description condition. We confirm this hypothesis and replicate 
+this finding in Experiment II, which also included a pure experience sampling and a pure distribution 
+condition in order to elucidate which presentation mode increases allocations to a greater degree. 
+The literature proposes that the experience-descrip tion gap for prospects with a small probability 
+of a loss operates through reduced overweighting of this probability (Baron and Erev 2003). Researchers 
+in the investment decision making area have also stre ssed the important role of the perceived probability 
+(Benarzti & Thaler 1999, Klos, Weber, and Weber 2005). However, as far as we know, the estimated 
+probability of a loss has never been explicitly assessed. In Experiment III, we assessed the probability of a 
+loss and hypothesized that it would mediate increased risk seeking with experience sampling. 
+Experiment III also looks for other drivers of increased risk seeking that may change depending 
+on the decision-making context. Classical portfolio theory (e.g., Markowitz 1952) characterizes the 
+decision about how much risk to accept in one’s investment portfolio as a trade-off between an 
+investment’s expected return and variance, determined by the individuals' risk attitudes:  
+Risk Taking = (Expected Return)-(Risk Attitude)(Expected Variance) 
+However, more recent behavioral studies imply that individual’s risk taking behavior can be better 
+explained by subjective measures such as risk perception and perceived return (see Sarin and Weber 1993, 
+Jia et al. 1999 and Nosić and Weber 2010): 
+Risk Taking = (Perceived Return) – (Risk Attitude)(Perceived Risk) 
+
+--- PAGE 7 ---
+7 
+ 
+These subjective beliefs can vary depending on the domain and situational features of the 
+decision making environment. For example, risk attitude and risk perception elicited in a lottery context 
+are not related to portfolio choices (Nosic and Weber 2010). Even within the same context, risk 
+perception may vary. The perceived risk of an investment option changes depending on whether it follows 
+from a series of gains or losses (Weber and Milliman 1997). This evidence suggests that these subjective 
+variables will be influenced by the manner in which risk is communicated. 
+These subjective measures can show excellent predictive validity, particularly perceived risk. 
+Perceived risk predicts risky choice, despite its weak relationship to the more objective measures, such as 
+standard deviation (Keller, Sarin, and Weber 1986; Klos, Weber, and Weber 2005). Assessing perceived 
+risk results in greater cross-situational stability of risk preferences (Weber and Milliman 1997, Weber, 
+Blais and Betz 2002). Perceived risk has been found to mediate the relationship between situational 
+factors (specifically, gain/loss framing) and risk taking (Sitkin and Pablo 1992, Sitkin and Weingert 
+1995). In Experiment III, we predict that the relationship between experience sampling and increased risk 
+taking will be mediated by perceived risk and perceived return. 
+In Experiment III, we assess two other psychological constructs that might help elucidate the 
+relationship between risk communication and risk taking: confidence in the risky fund and feeling 
+informed. Though there is a vast literature on overconfidence and investment behavior (e.g., Glaser and 
+Weber, 2007), little research has examined the role of subjective feelings of confidence. In research 
+outside of the investing domain, richer information is associated with increased confidence, although it 
+does not increase decision accuracy (Oskamp 1965). 
+It is often argued that investors do not understand the risk of financial products and therefore 
+show higher risk aversion. The results of Benarzti and Thaler (1999) and Beshears et al. (2010) suggest 
+that comprehension may be increased by displaying historical return distributions. Lejarraga (2010) 
+demonstrated that comprehension may also be increased through experience sampling. In the description 
+condition, participants viewed the probability of ra in in four cities. In the experience condition, 
+participants were allowed to sample whether there was sun or rain on a given day in each of the four cities 
+for as long as they wanted. Following a delay period in which participants completed a cognitive task, 
+they estimated the number of days it would rain in a ten-day period in each of the cities. Frequency 
+estimates were more accurate in the experience than in the description condition. Thus, since both 
+experience sampling and distribution displays can be expected to increase comprehension, we 
+hypothesized that people in the risk tool condition will give more accurate estimates of expected returns 
+and probabilities associated with outcomes. This is tested in Experiment III. 
+
+--- PAGE 8 ---
+8 
+ 
+Three experiments were conducted to test these hypotheses. In addition to the measures described 
+above, in each experiment we look for evidence of decision regret and reactivity to returns by assessing 
+satisfaction and by asking participants to make an addition allocation decision after receiving their return.  
+ 
+3. EXPERIMENTAL DESIGN AND DATA 
+ 
+Experimental Task 
+In each of the three experiments, participants were asked to allocate an endowment between two different 
+funds. Fund A was a risk-free fund and fund B was a risky fund, whose payoff was based on the historical 
+returns off the MSCI USA, (which was not known to participants). Participants were informed that at the 
+end of the experiment a “financial market simulation” would be run to determine the five year return on 
+their allocation decision. It was explained that this simulation randomly generated a return based on the 
+underlying distribution of allocation decision that they chose. Participants had the chance to win 
+Amazon.com gift cards for their simulated return. 
+Participants were randomly assigned to condition in a between-subjects design. Though the 
+conditions differed in the how information about the risk-return profile was presented, all other features of 
+the decision context were held constant. All conditions first provided information about the five year risk-
+return-profile of the risk-free fund and the risky fund separately (described further below). It was clear 
+that the risk-free fund had a guaranteed return. Participants selected an initial portfolio allocation and then 
+received information about the risk-return profile of th e diversified portfolio based on their initial chosen 
+allocation over a five year time horizon. Finally, they could change their initial allocation via a scroll bar 
+and observe how the risk-return profile of the po rtfolio as a whole changed before making their final 
+allocation. 
+Experiment III only then assessed psychological measures regarding the risky fund: perceived 
+risk, confidence, and how informed they felt about it. Next, Experiment III assessed comprehension 
+questions about the risky fund: expected return, probability of a loss of investment capital, and probability 
+of a return of 50% or greater. For further information about the differences between experiments see 
+Appendix A. Appendix B gives an overview of the variables and measures they reflect. 
+In all experiments, before the financial market simulation, participants reported control variables: 
+risk attitude, financial literacy (adapted from van Rooij, Lusardi & Alessi 2007), stock ownership, and 
+demographics. The financial market simulation was run and participants then reported their satisfaction 
+with their outcome on a 7-point scale. Finally, they reported how they would hypothetically allocate their 
+money between the risk free and the risky fund if they could make the same investment decision again.  
+ 
+
+--- PAGE 9 ---
+9 
+ 
+Stimuli 
+In all three experiments we tested two conditions – a description condition versus the risk tool condition. 
+The risk tool was developed to use experience sampling and graphical displays to communicate the asset 
+risk in contrast to the way it is usually done in banks – by presenting return expectations with stated 
+information about historical returns. In the risk tool condition they saw the expected returns and potential 
+outcomes of their investment on a graphical interface. They were first shown what the return would be if 
+they were to invest the total amount in the risk free Fund A on a graphical display with a single line. The 
+next step illustrated the expected return and variance of investing the total amount in the risky Fund B. To 
+simulate experience sampling, the program drew potential returns out of the distribution at random and 
+each draw contributed to a distribution function on the screen (see Figure 1a). Participants were allowed 
+to sample for as long as they wanted but were required to sample at least eight draws. After sampling, the 
+simulation rapidly displayed another eight draws and then rapidly built up the entire distribution. After 
+watching the simulation for the risky fund, participants entered an initial asset allocation between Fund A 
+and Fund B and went through the simulation again, which now reflected the underlying distribution of 
+their chosen diversified portfolio.  They were able to adjust this allocation and repeat the simulation until 
+they decided on a final allocation.  
+In the description condition participants were given the expected return as a percentage and the 
+standard deviation for each of the funds. The variance of the risky fund was also explained in terms of 
+frequencies (see Appendix C). They entered an initial asset allocation, saw the effects on return and 
+standard deviation of the diversified portfolio numerically. Next, they could adjust the allocation and see 
+the corresponding effects on the return and standard deviation until they decided on a final decision.  
+Experiments II and III attempted to deconstruct the risk tool condition by examining two 
+additional conditions: a pure experience sampling condition and a pure distribution condition. In the 
+experience condition participant first drew returns from the distribution of the two funds separately, 
+similar to the sampling procedure in Hertwig, Barron, Weber, Erev (2004). They saw one outcome after 
+the other without building up a distribution function (i n contrast to the risk simulation condition) and 
+entered in their initial allocation. Next they drew from the distribution of their chosen fund mix and were 
+able to adjust their allocation and draw again until they decided on a final allocation (see Figure 1b).  
+In the distribution condition participants viewed the return of the risk free fund on a graphical 
+display (as a single line) and the distribution graph of returns for the risky Fund B and made their initial 
+allocation. Next they could change this allocation and see how the distribution graph changed before 
+deciding on their final allocation (see Figure 1c).  
+ 
+
+--- PAGE 10 ---
+10 
+ 
+Insert Figure 1 here 
+ 
+Data and Participants 
+Experiment I was run at the University of Mannheim with one hundred and thirty-three undergraduates 5 
+(eighty-two male). The mean age was 22.24 with a range from 18 to 50 years. Approximately thirty 
+percent of the students reported owning stocks (st ock funds included). It took participants on average 
+nineteen minutes to complete the experiment online, for which they were compensated with the chance to 
+earn money in an incentive-compatible manner, based on  the outcome of the financial market simulation 
+of their allocation decision. Participants allocated EUR1,000 and we randomly selected 10 students to 
+receive an Amazon gift card for the amount of the financial market simulation divided by 100 (which 
+resulted in payments between EUR10 and EUR18). 
+For Experiment II, we recruited one hundred and eighty-eight participants
+6 (sixty‐six male) from 
+the general population using the subject pool of the Yale School of Management. The mean age was 34 
+with a range from 18 to 70 years. Participants were overwhelmingly Caucasian with an average income of 
+$47,000 (range from $0 to $199,000). Fifty percent were college educated and approximately forty-five 
+percent owned stocks. Participants again completed the experiment online and were offered a $5 
+Amazon.com gift certificate for their participation plus a 1 in 20 chance to earn additional 
+performance‐based pay based on the outcome their financial market simulation. Participants allocated 
+$100 and earnings ranged from $96 to $144. 
+In Experiment III, we assessed comprehension and potential mediators. The sample size was 
+increased to three hundred sixty-two participants 7 (one hundred twenty-two male) again using the subject 
+distribution list of the Yale School of Management. 8 Demographics were similar to the ones in 
+Experiment II. The mean age was 35 with a range from 18 to 75 years. Participants were overwhelmingly 
+Caucasian with an average income of $48,000 (range from $0 to $145,000). Fifty-three percent were 
+                                                            
+5 Ten participants were dropped from the original sample of 188 because they participated more than once. Five 
+participants were excluded because they failed an attention check question about what the experiment is about, nine 
+because they endorsed just clicking through the experiment or being very distracted, and thirty-one because they did 
+not finish the experiment. 
+6 Thirty-seven observations were dropped from the original sample of 237 because the subjects participated in the 
+experiment more than once. Four participants were excluded because they failed to correctly respond to a question 
+about the experimental content, one because he told us not to count his data, and seven because they did not finish 
+the experiment. 
+7 Thirty-tree observations were dropped from the original sample of 429 because the subjects participated for the 
+second time. Nine participants were excluded because they failed to correctly respond to a question about the 
+experimental content, fourteen because they told us not to count their data and eleven because they did not finish the 
+experiment. 
+8 People were unable to participate if they had already participated in Experiment II.  
+
+--- PAGE 11 ---
+11 
+ 
+college educated and approximately forty percent owned stocks. Participants again completed the 
+experiment online in exchange for a 50% chance to earn a $5 Amazon.com gift certificate and a one in 40 
+chance to earn additional performance‐based money based on the outcome of their allocation decision. 
+ 
+4.  INFORMATION PRESENTATION AND ALLOCATION DECISIONS 
+ 
+Patterns of Asset Allocation 
+Participants first received information about the risk free and the risky fund separately. Next they made an 
+initial allocation, which allowed them to view the dive rsified risk-return profile of this initial allocation. 
+They could adjust their allocation and view the diversified as many times as they wanted before deciding 
+on their final allocation. Only the final allocation was assessed in an incentive compatible manner. Table 
+1 shows the means of the initial and final allocation to the risky fund.   
+ 
+Insert Table 1 here 
+ 
+We find that the manner in which people acquire knowledge about risk does affect the allocation 
+decision. The final allocation was significantly higher in the risk tool condition in all three experiments.  
+The increased risky allocations in the risk tool condition remains significant when we include control 
+variables using OLS regression analysis
+9 in Table 2. Consistent with previous literature (Hong, Kubik, 
+Stein 2004, van Rooij, Lusardi and Alessie 2007, Nosic and Weber 2009), self-reported risk attitude is 
+highly significant in all three experiments. The control variables: financial literacy, stock ownership, age, 
+education, and income were generally insignificant. Education and income were not collected from the 
+student population since education is relatively constant in the sample and it is difficult to meaningfully 
+assess income in a student sample. See Appendix B for an explanation of the variables used in this and all 
+other analyses. There was no difference in the initial allocation between conditions. 
+ 
+Insert Table 2 here 
+ 
+Driver of increased risk taking: Experience sampling versus distribution displays  
+Results suggest that adding information through the use of experience sampling and a distribution 
+function leads to more risky asset allocations. This ra ises the question of whether it is the presence of one 
+or both of these features that results in riskier allocations. This is explored in Experiments II and III by 
+                                                           
+ 
+9 Results also hold using Tobit regression analysis censored by €0 and €1,000 for Experiment I and $0 and $100 for 
+Experiments II and III.  
+
+--- PAGE 12 ---
+12 
+ 
+adding a condition that includes only experience sampling and a condition that only includes distribution 
+functions. 
+In the experience condition participants first drew returns from the distribution of the two funds 
+separately, in a manner similar to the sampling pr ocedure in Hertwig, Barron, Weber, Erev (2004). 
+Participants had to sample at least three times from the risk free fund (which was always an outcome of 
+$118) and at least eight times from the risky fund and then entered in an initial allocation. Next they 
+sampled from the diversified portfolio of their initial allocation and were able to adjust their allocation 
+and continue to sample until they decided on a final allocation. In the distribution condition, they saw the 
+return of the risk free fund as a line on a graphical display and the distribution graph of returns for the 
+risky fund. The distribution of their initial allocation was displayed graphically. They could change this 
+allocation and see how the distribution graph changed before deciding on their final allocation. See 
+Appendix C for an overview of experimental conditions. 
+The mean allocations to the risky fund are disp layed in Table 3. In Experiment II, risky 
+allocations were elevated in the experience and distribution conditions compared to the description 
+condition, but this difference is only marginally significant for the experience condition compared to the 
+description condition with control variables included in the regression model (see Table 4, column 1). 
+With the increased sample size in Experiment III, the difference between experience and description is 
+significant (see Table 4, column 3).  
+ 
+Insert Table 3 here 
+Insert Table 4 here 
+ 
+This evidence of the experience-description gap suggests that the increased risk taking in the risk 
+tool is driven more by experience sampling rather than by the presentation of the distribution function. 
+Nevertheless, it does not explain the whole effect, as the difference between the description and 
+combination risk simulation condition is greater than the difference between description and experience 
+conditions. There were no significant differences between the description and distribution conditions 
+(Table 4, columns 2 and 4). 
+ 
+ 
+ 
+ 
+ 
+
+--- PAGE 13 ---
+13 
+ 
+5. COMPREHENSION & UNDERLYING PSYCHOLOGICAL MECHANISMS 
+ 
+Comprehension 
+We analyzed whether the manner in which people acquire information about risk affects their 
+comprehension of the underlying risk and return profile. The first comprehension question assessed the 
+expected return of the risky fund after five years with an initial investment of $100 in the risky fund. The 
+correct answer based on historical returns is $153. Note that in all conditions except the experience 
+condition, participants were explicitly given the return of the risky fund. Therefore, in order to answer this 
+question correctly, they only had to recall it correctly. Participants choose from among five intervals. The 
+highest percentage of right answers was in the risk tool condition, though this is not significantly higher 
+than any of the other conditions. In order to underst and the direction and magnitude of incorrect answers, 
+we created a new variable to reflect overestimation by assigning the value -1 to $100-$140 (the interval 
+that underestimated the return), 0 to $141-$180 (the correct interval),  1 to $181-$220, 2 to $220-$260, 
+and 3 to >$260). Using ordered probit analysis with the control variables previously described, there is 
+significantly less overestimation of the return in the risk tool condition compared to the description 
+condition (z= 2.28, p= .02). Using the midpoint of each interval to estimate the magnitude of 
+overestimation in each condition, the expected return in the risk tool condition is overestimated by $13 in 
+the risk tool condition and $24 in the description condition (see Table 5). 
+ 
+Insert Table 5 here 
+ 
+Participants estimated the probability that the five year return of a $100 allocation to the risky 
+fund would fall below $100 (correct answer 16%) or exceed $150 (correct answer 54%). Across 
+conditions, participants do not display consistent optimism or pessimism regarding the variance of the 
+return. Overall, there is an overestimation of the chance of receiving a loss (overall mean 29%). On the 
+other hand, there is an underestimation of a return higher than 150 (overall mean 36%). 
+Additionally, participants were asked to estimate the probability of receiving a loss with the 
+following question:  “If we put $100 in the riskier fund, in how many cases out of 100 will final wealth 
+fall below $100 after five years?”
+10 In the risk tool condition, they are significantly more accurate about 
+the probability of a loss compared to the description condition using regression analysis with control 
+variables previously described ( β=-14.91, t= 4.69, p < 0.01). Though they overestimate the probability of 
+a loss to a lesser extent, participants in the risk tool condition are not simply more optimistic; they 
+                                                            
+10 One observation was dropped because it exceeded 100 (180).  
+
+--- PAGE 14 ---
+14 
+ 
+underestimate the probability of a gain at a marginally significant level ( β=  -6.68, t=1.95, p= .053). 
+Further, recall that those in the risk tool condition  are most accurate about the perceived return (and 
+overestimated it to the smallest degree), indicating that they do not appear to have unrealistic expectations 
+about the potential upside return of the risky fund. 
+The increased comprehension in the risk tool cond ition is not clearly driven by either experience 
+sampling or the distribution displays. There ar e no significant differenc es between the experience, 
+distribution, and description conditions, though the experience condition tends to show a reduced 
+perception of the probability of a loss. 
+ It is especially important to find ways to get people with low financial literacy to understand the 
+underlying risk-return profile of their investments. We divide our sample into high and low financial 
+literacy by splitting participants at mean financial literacy score (which is equal to the median). Across 
+conditions, those with low financial literacy are less accurate about the estimated expected return (t= 1.71, 
+p= 0.09) and the estimated probability of a loss (t= 2.50, p= 0.01).  However, participants with low 
+financial knowledge in the tool condition are signific antly more accurate about the probability of a loss 
+compared to people with high financial knowledge in other conditions (t(183)=2.09, p=0.04). This 
+suggests that the risk tool holds promise as a tool for financial education.   
+ 
+Psychological Mediators of Risky Allocations 
+In Experiment III we additionally sought to better understand the psychological process by which the risk 
+tool condition increased risk taking relative to the description condition. The behavioral model of risk 
+taking posits that risk taking is a function of perceived return and perceived risk, which can be influenced 
+by the decision making context. We assessed these variables and hypothesized that they would mediate 
+the increased risk taking in the risk tool condition. We measured two other psychological variables: 
+confidence in the risky fund and feeling informed about the risky fund. Additionally, as discussed in 
+Section 2, we tested the prediction that the increased risk seeking associated with experience sampling is 
+mediated by the perceived probability of a loss. See Appendix B for measures. 
+ Mediation analysis is a commonly used statistical procedure to elucidate the underlying causal 
+chain from an independent variable (i.e., risk presentation)  on a dependent variable (i.e., risky allocation). 
+The objective is to show that the independent variable acts on the mediating variable, which in turn, acts 
+on the dependent variable, as opposed to the indepe ndent variable simply increasing both the proposed 
+mediating and dependent variable. Tests of mediation require that four conditions be met (Baron & 
+Kenny, 1986; James and Brett, 1984). To demonstrate the mediating effect of variable M in the relation X 
+→ Y: (1) X must be significantly related to M, (2) M must be significantly related to Y, (3) the variance in 
+
+--- PAGE 15 ---
+15 
+ 
+Y predicted by X must be non-significant after mediator M is controlled (indicating full mediation) or 
+significantly reduced (indicating partial mediation), and (4) M should be significantly related to Y after X 
+is controlled. 
+ Perceived Risk. After making their allocation decision, participants were asked to report how 
+risky they perceived the risky fund to be on a seven- point scale (anchored at “not risky at all” and “very 
+risky”). This measure of perceived risk partially mediated the increased risk seeking in the risk tool 
+condition compared to the description condition, as indicated by a significant Sobel test
+11 (z= 2.19, p = 
+.03). This is evidence that the risk tool reduces risk perceptions, which in turn increases risky allocations. 
+However, subjective risk perception accounts for only 20.11% of the increase in risk taking, and this 
+partial mediation suggests that there are additional variables that affect this pathway.   
+ Perceived Return. Perceived return was also assessed against a normatively correct benchmark by 
+asking participants to indicate the expected five-year re turn of a $100 allocation to the risky fund. Since 
+asking participants to simply estimate a figure was likely to lead to highly variable responses, we asked 
+them to choose from among five intervals ($100-$140; $141-$180; $181-$220; $220-$250; >$260).
+12 
+This measure was not found to mediate the increased risk taking in the risk tool condition. The accuracy 
+of this measure is further discussed below in regard to comprehension. 
+  Confidence & Feeling Informed. We hypothesized that participants might feel more informed and 
+thus more confident about investing the risky fund in the risk tool condition and this would underlie the 
+increased risk seeking relative to the description condition. Participants were asked how confident they 
+felt about investing in the risky fund on a seven-point scale. Confidence in the risky fund mediated the 
+increased risk taking in the risk tool condition, accounting for 35% of the variance (z=2.79, p<0.01). 
+Confidence also mediated the increased risk-taking in the experience condition compared to the 
+description condition, accounting for 40% of the variance (z= 2.33, p= 0.02).  
+ Feeling informed was assessed by asking participants how informed they feel about investing in 
+the risky fund on a seven-point scale. Though feeling informed and confidence in the risky fund were 
+significantly correlated (r= .44, p<.01), feeling in formed did not significantly mediate increased risk 
+taking in the risk tool condition compared to the description condition (z=1.38, p= .17). 
+ Perceived probability of a loss. The literature on the experience-description gap theorizes that the 
+overweighting of small probabilities (as described by prospect theory) is reduced or reversed for decisions 
+made from experience. In the case of investment decisions in an equity fund over a five-year horizon (the 
+decision we used in our experiment), the probability of a loss is a small probability. We hypothesized that 
+                                                           
+ 
+11 For further information about the test, see Sobel, M. E. (1982) 
+12 This procedure was used to prevent undue influence from outliers. 
+
+--- PAGE 16 ---
+16 
+ 
+the perceived probability of a loss would mediate increased risk taking. This estimation significantly 
+mediates the increased risk taking in the risk tool condition compared to the description condition (z= 
+2.24, p= .03) and accounts for 27% of the variation. If we exclude the risk tool condition and examine 
+whether the perceived probability of a loss mediates the increased risk seeking in the experience condition 
+compared to the description and distribution condition, we find marginally significant mediation (z= 1.85, 
+p=.07), accounting for 24% of the variance. 
+Summary. Taken together, we find evidence that increased risk taking is mediated by the 
+perceived risk of the risky fund, confidence in the risky fund, and the perceived probability of a loss. 
+Figure 2 displays the means of these variables across conditions and shows the pattern of increased 
+confidence, decreased risk perception, and decreased perceived probability of a loss that is associated 
+with investment allocations. 
+ 
+Insert Figure 2 here 
+ 
+6.  Ex-Post Decision Evaluation 
+Does the manner in which people acquire information about risk influence their satisfaction with their 
+outcomes? Those in the risk tool condition might only be temporarily convinced to accept greater risk and 
+later come to regret their decision, especially if they receive a loss or a return that does not meet their 
+expectations.  
+After receiving the outcome of their decisions from the financial market simulation, participants 
+reported satisfaction with their return. We find no evidence that people in the risk tool condition regret 
+their relatively high allocations to the risky fund. In all three experiments participants in the risk tool 
+condition were not less satisfied with the outcomes than in the description condition (see Table 6). Even 
+for people whose return fell below the expected value of their allocation decision, satisfaction was not 
+reduced for those in the risk tool condition.  
+ 
+Insert Table 6 here 
+ 
+Another indicator of how people evaluate their allocation decision after receiving their return is 
+their subsequent (hypothetical) allocation decision. Across conditions, there are high correlations between 
+the allocation and subsequent allocation (r
+Exp1= .52, r Exp2=.70, r Exp3=.72). If we compare subsequent 
+allocations in the description and risk tool conditions, we find riskier allocation in the risk tool condition 
+in all three experiments (see Table 7). These results are robust to the inclusion of control variables. 
+
+--- PAGE 17 ---
+17 
+ 
+ 
+Insert Table 7 here 
+ 
+That participants again take on more risk in a subsequent allocation in the risk tool condition 
+compared to the description condition suggests that they do not regret their riskier allocation in the risk 
+tool condition. Another way to address the issue of decision regret is to analyze the difference between 
+the first and the subsequent allocation to gain a better understanding of the subjects’ reactivity to returns 
+between conditions. Figure 3 plots the subsequent mi nus the first allocation against the variable luck, 
+which reflects whether subjects earned more or less than their expected return in their final outcome. For 
+example, if a participant invested 100 in the risky fund and received an outcome of 160 in the financial 
+market simulation, the variable luck is calculated as 160 – 153 (which is the expected return) = 7. We 
+combine the data from Experiments II & III, in which participants were allocating $100. 
+Across conditions, participants are reactive to losses but not gains. They reduce their allocation to 
+the risky fund in reaction to a return less than the expected value of their allocation (i.e., luck <0). This 
+tendency appears less pronounced in the risk tool and experience conditions compared to the description 
+and distribution conditions (see Figure 3). In order to assess this pattern more formally, we focus on the 
+subsample of participants where the expected value falls short of the realized return (i.e. luck<0) and 
+regress the difference between subsequent and final allocation on the interaction terms of the dummy 
+variables for the condition and luck. A higher coef ficient suggests that participants reduce their risky 
+allocation in a hypothetical subsequent allocation as a result of a more negative difference between 
+expected and realized return. We find evidence of a lower reactivity to losses in the risk tool condition. 
+Participants are significantly less reactive in the risk tool condition compared to distribution (F
+(1,314) =    
+6.59, p= 0.01) and in the experience condition compared to distribution (F (1,314) = 4.26, p= 0.04). Looking 
+at the coefficient in the description condition, we see that participants are more reactive to losses than 
+participants in the experience and the risk tool condition. However, this effect is not significant. 
+ 
+Insert Figure 3 here 
+Insert Table 8 here 
+ 
+7. Robustness Check of the Experience-Description Gap 
+ 
+In Experiments II & III we observe the experience description gap in portfolio allocation decisions, 
+though it is only marginally significant in Experiment II. Hertwig, Barron, Weber and Erev (2004) invoke 
+two mechanisms to explain the experience-description-gap: reliance on relatively small samples of 
+
+--- PAGE 18 ---
+18 
+ 
+information due to limited search ( sampling error ) and overweighting of recently sampled information 
+due to memory constraints ( recency effects). Fox and Hadar (2006) replicated these results found that the 
+underweighting of rare events in experience-based decisions is almost entirely driven by the sampling 
+error – a discrepancy between objective and experienced probabilities. Similarly, Rakow, Demes and 
+Newell (2008) also claim that sampling error accounts for most, if not all of the gap.  
+On the other side of the debate, Hau, Pleskac, Keiffer, & Hertwig (2008) found that the 
+description-experience gaps persists when sampling error is eliminated by having participants sample 100 
+times before making decisions. Abdellaoui, L’Haridon and Paraschiv (2008) elicited the prospect theory 
+weighting function for both experienced and described probabilities. They did find overweighting of 
+small probabilities in the weighting function for experience-based decisions, but to a lesser extent than for 
+description-based decision (in the gain domain only). These results offer some support for the experience-
+description gap. The less pronounced overweighting coupled with more pronounced underweighting of 
+moderate probabilities for experience- based decisions led them to invoke ambiguity aversion as an 
+explanation for the general pessimism associated with the more ambiguous experienced probabilities. 
+Additionally, sampling error could not account for th eir results, as sampled probabilities were good 
+representations of the objective probabilities. 
+We test whether these explanations can account for the increased risk taking in the experience 
+sampling conditions that we  find in Experiment III. Specification 1 of Table 9 shows that the difference 
+between experience and description is significant at t he 1% level. Specification 2 controls for sampling 
+error with a variable equal to expected value. This variable is equal to the expected value of what each 
+participant actually sampled in the experience condition and is a constant set to $153 in the description 
+condition, as calculated based on historical returns and explicitly stated in the experimental materials. 
+Specification 3 adds the standard deviation, which was standard deviation of sampled outcomes in the 
+experience condition and was explicitly stated in the description condition. After controlling for these 
+variables, we continue to find a significant difference between experience and description. It seems that 
+the effect cannot be fully explained by the sampled outcomes.  
+ 
+Insert Table 9 here 
+ 
+If sampling error drives the results, one would expect allocations in the different conditions to 
+become more similar as information search increases. Hertwig, Barron, Weber and Erev (2004) show that 
+many respondents in the experience group sample rare events less frequently than expected and that the 
+occurrence of the rare event has an impact on choice. (The average number of draws per decision problem 
+was < 10.) In our results we find no effect of the number of stock draws (14.48 on average with a range 
+
+--- PAGE 19 ---
+19 
+ 
+from 8 to 109) on the final. Even if we limit the analysis to participants who sampled more than 14.5 
+times, the higher allocation in the ex perience condition is still significant ( p=0.03). Furthermore, the 
+number of draws does not influence participants’ confidence in the decision.  
+In line with a recency effect, we find a significant influence of the average last three draws 
+participants saw in the experience condition. People who observed a high average of the last three draws 
+make a riskier allocation, but the difference of between experience and description still remains 
+significant when we control for this effect (Specification 4).  
+In sum, it seems that the experience description gap also exists in portfolio allocation decisions 
+and can not entirely be explained by the number of outcomes sample, sampling error, recency, or active 
+vs. passive sampling. 
+ 
+ 
+7. DISCUSSION AND CONCLUSIONS 
+ 
+Research to date had not examined the optimal way to inform customers about the riskiness of investment 
+products in a manner that maximizes comprehension and satisfaction with returns. The results of the 
+current paper suggest that a richer risk presentation format that incorporates experience sampling may 
+help achieve this objective.  
+Information presentation format reliably affects allocation to a stock fund. Experiments I, II, and 
+III demonstrates that the when the presentation format includes experience sampling and the distribution 
+condition risky allocations are higher compared to simply describing the expected return and standard 
+deviation. In order to determine the type of information that leads to increased risk taking in the risk 
+simulation condition, the distribution and experience conditions were added in Experiment II and III.  
+Results suggest that it is experience sampling that leads to the riskier allocations in the risk tool 
+simulation condition. Elevated risk seeking was observed in the experience condition relative to the 
+description condition at a marginal level of significance in Experiment II and at a significant level in 
+Experiment III. This confirmation of the experience -description gap may be driven by more accurate 
+weighting of the small probability of a loss. Consistent with this explanation, we find a reduced 
+estimation of the probability of a loss (i.e., a return less than their investment capital) in both the risk tool 
+and experience condition. Further, the estimation of t he probability of a loss significantly mediates the 
+increased risk taking in the risk tool condition and at a marginal level for the experience condition. Thus, 
+another contribution of the current paper is the direct measurement of the perceived probability of a loss 
+to give evidence that it does drive the experience-description gap.   
+
+--- PAGE 20 ---
+20 
+ 
+Nevertheless, experience sampling does not entirely explain the increased risk-taking in the risk 
+tool condition since risk-taking in the risk tool simulation condition was consistently higher. Presentation 
+of the distribution function may have some additive effect. The distribution function was elevated relative 
+to the description condition in both Experiments II and III, though not significantly. Future research 
+should further explore different graphical presentation formats, perhaps displaying historical returns as 
+percentages as done in Beshears et al. (2010), where significantly higher risk seeking was observed. 
+Although allocations are higher in the experience and risk tool condition, we do not see any 
+evidence of greater decision regret or unrealistic expectations about the risky fund. Participants in the 
+experience and risk tool conditions are no less satisfied with the return they receive and maintain the same 
+or greater risk level when they are asked how they would allocate their money if they could make a 
+subsequent allocation decision. Comprehension questions revealed that participants in the risk tool 
+condition are most accurate about the expected return and the probability of a loss. Yet, they do not hold 
+unrealistically optimistic beliefs, as they significantly underestimate the probability of a high gain. 
+Mediation analysis indicates that the increased risk  taking in the risk tool condition operates by 
+decreasing perceived risk, increasing confidence in the risky fund, and decreasing the perceived 
+probability of a loss. The addition of decision co nfidence and the perceived probability of a loss 
+compliment the behavioral finance model of risk taking. It is not surprising that the perceived probability 
+of a loss mediates increased risk taking. The extremely robust literature on loss aversion documents the 
+increased sensitivity to losses relative to gains of equivalent value. In our data, the perceived probability 
+of a loss impacts investment decisions to a greater extent than the perceived probability of a high gain. 
+That increased risk taking is mediated by losses also  bolsters the literature on the experience-description 
+gap, which has theorized, but not explicitly measured, reduced overweighting of rare events (in this case 
+the small probability of a loss) for decisions based on experience. 
+Participants in the experience condition tended to be less reactive to variance in returns. Across 
+conditions, satisfaction with returns follows the shape of the prospect theory utility function (with actual 
+return minus expected return as the reference point). Participants in the risk tool condition tend to show a 
+less steep function in the domain of losses. Similarly, experience sampling tends to decrease the tendency 
+to react to losses by decreasing risky allocations in a subsequent allocation decision. 
+Taken together, these experiments demonstrate that the provision of richer information about risk 
+results in riskier allocations without any increase in decision regret, greater comprehension, and less 
+reactivity to either positive or negative variations in returns. These results suggest that applying 
+experience sampling through financial simulations may be a productive strategy for banks to improve 
+financial decision making. The recent financial cris is has illustrated the importance of clients fully 
+
+--- PAGE 21 ---
+21 
+ 
+appreciating the risk that they accept in their portfolios and the potential losses that can be avoided by not 
+overreacting to market volatility.  
+
+--- PAGE 22 ---
+22 
+ 
+References 
+ 
+Abdellaoui, M., O. L’Haridon, C. Praschiv. 2008. Experience-based vs. description-based decision 
+making: Do we need two different prospect theory specification. Working paper. 
+ 
+Baron, G., I. Erev.2003. Small feedback-based decisions and their limited correspondence to description-
+based decisions. Journal of Behavioral Decision Making, 16: 215-233. 
+Baron, R. M., D.A. Kenny.1986.  The moderator-mediator variable distinction in social psychological 
+research: Conceptual, strategic and statistical considerations. Journal of Personality and Social 
+Psychology, 51, 1173-1182. 
+Benartzi, S., R. Thaler. 1999. Risk  aversion or myopia? Choices in repeated gambles and retirement 
+investments. Management Science., 45, 364-381.  
+ 
+Beshears, J., J. Choi, D. Laibson, M. Madrian.  2009. Can Psychological Aggregation Manipulations 
+Affect Portfolio Risk-Taking? Evidence from a Framed Field Experiment. Working Paper. 
+ 
+Fox, C.R., L. Hadar. 2006. “Decisions from ex perience” = sampling error + prospect theory: 
+Reconsidering Hertwig, Barron, Weber & Erev (2004). Judgment and Decision Making, 1, 159–161. 
+ 
+Glaser, M., M. Weber. 2007. Overconfidence and Trading Volume, Geneva Risk and Insurance Review. 
+32(1), 1554-9658. 
+ 
+Goldstein, D.G., E.J. Johnson, W.F. Sharpe. 2006., Measuring Consumer Risk-Return Tradeoffs. 
+Working Paper. 
+ 
+Hadar, L., C.R. Fox. 2009. Information asymmetry in decision from description versus decision from 
+experience. Judgment and Decision Making, 4, 317-325.  
+Hau, R., T.J. Pleskac, J. Kiefer, R. Hertwig. 2008 . The description-experience gap in risky choice: the 
+role of sample size and experienced probabilities, Journal of Behavioral Decision Making, 21(5), 493 –
+ 518. 
+ 
+Hertwig, R., G. Barron, E.U. Weber, I. Erev. 2004. Decisions from experience and the effect of rare 
+events in risky choice. Psychological Science, 15, 534–539. 
+ 
+Hong, H., J.D. Kubik, J.C. Stein. 2005. Thy neighbor’s  portfolio: Word-of-mouth effects in the holdings 
+and trades of money managers, Journal of Finance, 60, 2801-2824. 
+ 
+James, L.R., J.M. Brett. 1984. Mediator s, moderators, and tests for mediation. J. Appl. Psych. 69(2) 307–
+321. 
+ 
+Jia, J., J.S. Dyer, J.C. Butler. 1999. Measures of Perceived Risk. Management Science, 45, 519-532. 
+ 
+Kahneman, D., A. Tversky. 1979. Prospect theory: An analysis of decision under risk. Econometrica, 47, 
+263–291. 
+ 
+
+--- PAGE 23 ---
+23 
+ 
+Keller, C. R., R.K. Sarin, M. Weber. 1986. Empirical investigation of some properties of the perceived 
+riskiness of gambles. Organizational. Behavior and Human Decision Processes, 38 114-130.  
+Klos, A., E.U. Weber, M. Weber. 2005. Investment de cisions and time horizon: Risk perception and risk 
+behavior in repeated gambles. Management Science, 51, 1777-1790. 
+Lejarraga, T. 2010. When experience is better than description: Time delays and complexity . Journal of 
+Behavioral Decision Making, 23, 100-116. 
+ 
+Markowitz, H. 1952. Portfolio Selection, Journal of Finance, 7, 77-91. 
+ 
+Nosic, A., M. Weber. 2009. Overreaction and Asset Allocation: An Experimental Analysis, Working 
+Paper. 
+ 
+Nosic, A., M. Weber. 2010. How Risky Do I Invest: The Role of Risk Attitudes, Risk Perceptions and 
+Overconfidence, Working Paper. 
+ 
+Oskamp, S. 1965. Overconfidence in case-study judgement, Journal of Consulting Psychology , 29(3), 
+261-265. 
+ 
+Rakow, T., K. Demes, B. Newell. 2008. Biased samples not mode of presentation: Reexamining the 
+apparent underweighting of rare events in experience-based choice. Organizational Behavior and Human 
+Decision Processes, 106(2), 168-179. 
+ 
+Rakow, T., B.R. Newell. 2010. Degrees of uncertainty: An overview and framework for future research 
+on experience-based choice. Journal of Behavioral Decision Making, 23, 1–14.  
+ 
+Rooij, van M., A. Lusardi, R. Alessi. 2007. Financi al literacy and stock market participation, DNB 
+Working Papers. 
+ 
+Sarin, R., M. Weber. 1993. Risk-Value Models," European Journal of Operational Research , 70, 135-
+149. 
+ 
+Sitkin, S. B., A. L. Pablo. 1992. Reconceptualizing the determinants of risk behavior.  Academy of 
+Management Review, 17, 9-38. 
+ 
+Sitkin S. B., L.R. Weingart. 1995. Determinants of risky decision making behavior: a test of the 
+mediating role of risk perceptions and risk propensity. Academy of Management Journal, 38: 1573–1592. 
+ 
+Sobel, M. E. 1982. Asymptotic intervals for indirect effects in structural equations models. In S. Leinhart 
+(Ed.), Sociological methodology 1982 (pp.290-312). San Francisco: Jossey-Bass. 
+ 
+The European Parliament and the European Council. 2004. Markets in Financial Instruments 
+Directive. Directive 2004/39/EC. 
+ 
+Weber, E.U., A.-R. Blais, N. E. Betz. 2002. A Domain-specific Risk-attitude Scale: 
+Measuring Risk Perceptions and Risk Behaviors," Journal of Behavioral Decision Making, 
+15, 263-290. 
+ 
+
+--- PAGE 24 ---
+24 
+ 
+Weber E.U., R. Milliman. 1997. Perceived risk atti tudes: relating risk perception to risky choice. 
+Management Science, 43:122–143. 
+ 
+Weber, E.U., S. Shafir, A.R. Blais. 2004. Predicting ri sk sensitivity in humans and lower animals: Risk as 
+variance or coefficient of variation. Psychological Review, 111, 430-445. 
+
+--- PAGE 25 ---
+25 
+ 
+ Table 1: Overview of allocation to the risky fund – description versus tool condition 
+This table reports the results mean allocations, standard deviations, and median allocations to the risky 
+fund (out of a possible €1,000 allocation in Experiment I and out of a possible $100 allocation in 
+Experiment II and III) in %. 
+ 
+ Experiment I 
+(Students) 
+Experiment II  
+(General Population) 
+Experiment III  
+(General Population) 
+ n Initial 
+Alloc. 
+Final 
+Alloc. 
+n Initial 
+Alloc. 
+Final 
+Alloc. 
+n Initial 
+Alloc. 
+Final 
+Alloc. 
+Description  75   44    99   
+Mean 
+Std. dev. 
+ 43.47 
+30.85 
+60.42 
+26.34 
+ 52.68 
+28.44 
+54.39 
+26.04 
+ 47.95 
+31.84 
+57.71 
+27.85 
+Median  45.00 60.00  50.00 50.00  50.00 60.00 
+Risk Tool 58   45   93   
+Mean  44.54 74.15  52.27 66.53  47.16 70.59
+Std. dev.  31.68 23.60  25.77 25.50  31.29 26.31 
+Median  37.50 81.00  50.00 65.00  50.00 75.00 
+t-test    t=3.12 
+p<0.01 
+  t=2.22 
+p=0.03 
+  t=3.38 
+p<0.01 
+ 
+
+--- PAGE 26 ---
+26 
+ 
+Table 2: Final allocation to the risky fund – description versus tool condition 
+This table reports results of OLS regression analysis of final allocations to the risky fund for the risk tool 
+and description conditions. * indicates significance at the 10% level, ** at the 5% level and *** at the 1% 
+level, income expressed in ten thousands, standard errors in parentheses 
+ 
+Allocation Experiment I 
+(German Students) 
+ Experiment II 
+(General Population)
+ Experiment III 
+(General Population)
+      
+Risk Tool 132.72*** 
+(38.42) 
+ 13.83*** 
+(5.24) 
+ 11.92*** 
+(3.64) 
+Risk Attitude 137.69*** 
+(22.63) 
+ 9.72*** 
+(2.93) 
+ 10.37*** 
+(2.00) 
+Financial Literacy  7.19 
+(7.99) 
+ 1.65 
+(1.25) 
+ -1.11 
+(0.86) 
+Stock Ownership -48.85 
+(44.72) 
+ 12.03** 
+(5.69) 
+ 1.77 
+(4.16) 
+Age 16.04** 
+(6.23) 
+ 0.05 
+(0.23) 
+ 0.001 
+(1.16) 
+Gender 31.70 
+(40.92) 
+ 3.49 
+(5.92) 
+ 1.14 
+(4.19) 
+Education   1.97 
+(2.85) 
+ 4.39** 
+(2.15) 
+Income   -1.22 
+(1.03) 
+ -0.21 
+(0.17) 
+Constant -189.03 
+(156.06) 
+ 1.96 
+(14.21) 
+ 20.70** 
+(9.91) 
+Observations 133  89  192 
+R-squared 0.33  0.30  0.21 
+ 
+ 
+
+--- PAGE 27 ---
+27 
+ 
+Table 3: Allocation to the risky fund – all conditions 
+This table reports the results on mean allocations and standard deviations to the risky fund (out of a 
+possible $100 allocation in Experiment II and III). 
+ 
+ 
+        Experiment II      Experiment III  
+Condition n Final Allocation n Final Allocation 
+Description 44 $54.39 
+($26.04) 
+99 $57.71 
+($27.85) 
+Distribution 50 $59.52 
+($27.48) 
+81 $62.46 
+(27.33) 
+Experience 50 $61.22 
+($24.84) 
+88 $66.65 
+(26.62) 
+       
+Risk Tool 44 $66.34 
+($25.77) 
+93 $70.59 
+(26.31) 
+ 
+
+--- PAGE 28 ---
+28 
+ 
+Table 4: Final allocation to the risky fund:  
+Experience and distribution versus the description condition 
+This table reports results of OLS regression analysis of final allocations to the risky fund for description 
+and experience as well as description and distribution condition. * indicates significance at the 10% level, 
+** at the 5% level and *** at the 1% level, income expressed in ten thousands, standard errors in 
+parentheses 
+ 
+ 
+ 
+ Experiment II  Experiment III 
+Allocation Description 
+and Experience 
+Conditions 
+ Description and 
+Distribution 
+Conditions 
+ Description 
+and Experience 
+Conditions 
+ Description and 
+Distribution 
+Conditions 
+        
+Experience 8.73*    9.33**   
+ (4.88)    (3.87)   
+Distribution   7.46    4.35 
+   (5.39)    (3.77) 
+Risk Attitude 8.74***  9.90***  5.52**  9.17*** 
+ (2.85)  (3.11)  (2.14)  (2.09) 
+Financial Literacy 1.44  1.99  0.02  -1.62* 
+ (1.42)  (1.25)  (0.83)  (0.82) 
+Stock Ownership 6.90  5.85  -2.46  7.63* 
+ (5.83)  (6.22)  (4.66)  (4.37) 
+Age -0.48**  -0.22  0.21  0.07 
+ (0.24)  (0.26)  (0.17)  (0.17) 
+Gender 4.53  -5.69  6.44  6.29 
+ (5.42)  (6.34)  (4.42)  (4.20) 
+Education -0.16  -5.66*  2.01  3.23 
+ (2.68)  (2.94)  (2.25)  (2.17) 
+Income 0.29  0.34  -0.53  -0.62 
+ (0.86)  (0.92)  (0.60)  (0.61) 
+Constant 24.62*  27.65*  28.74***  26.10** 
+ (14.34)  (14.98)  (9.91)  (10.39) 
+Observations 95  94  187  180 
+R-squared 0.243  0.195  0.104  0.182 
+ 
+
+--- PAGE 29 ---
+29 
+ 
+Table 5: Comprehension about the risky fund 
+This table reports the deviation from corrects answers to comprehension questions about the risky fund.  
+ 
+Condition n Correct 
+return 
+interval 
+Overestimation of 
+the return* 
+Overestimation 
+of the probability 
+of a loss+  
+Underestimation of 
+the probability of a 
+gain > $150+ 
+Description 99 46% $24 21 15 
+Distribution 81 54% $27 23 19 
+Experience 88 47% $26 15 12 
+Risk Tool 
+Simulation 
+93 57% $13 5 21 
+*Overestimation of return is estimated from the return intervals by averaging the midpoint of the 
+intervals. 
++ In percentage points 
+
+--- PAGE 30 ---
+30 
+ 
+Table 6: Decision satisfaction with returns 
+This table reports the mean of overall self assessed decision satisfaction (7 point scale) and satisfaction 
+after a return below the expected value of their chosen portfolio.  
+ 
+  Experiment I 
+(Students) 
+ Experiment II  
+(General Population) 
+ Experiment III  
+(General Population) 
+Condition n Satisf. Satisf. if 
+luck < 0 
+n Satisf. Satisf. if  
+luck < 0. 
+n Satisf. Satisf. if 
+luck < 0 
+Description 65 
+(37)* 
+4.25 
+(2.02) 
+3.03 
+(1.66) 
+44 
+(23) 
+5.41 
+(1.59) 
+4.70 
+(1.43) 
+99 
+(60) 
+5.25 
+(1.58) 
+4.72 
+(1.63) 
+          
+Risk Tool 54 
+(29) 
+4.10 
+(1.90) 
+3.28 
+(1.94) 
+44 
+(26) 
+5.12 
+(1.59) 
+4.54 
+(1.70) 
+93 
+(55) 
+5.31 
+(1.62) 
+4.75 
+(1.64) 
+*The n in parentheses reflect the participants with luck < 0. 
+ 
+
+--- PAGE 31 ---
+31 
+ 
+Table 7: Subsequent Allocation to the risky fund 
+This table reports the mean, median, and standard deviations of subsequent allocation in % (out of a 
+possible €1,000 allocation in Experiment I and out of a possible $100 allocation in Experiment II and III). 
+ 
+ Experiment I 
+(Students) 
+Experiment II  
+(General Population) 
+Experiment III  
+(General Population) 
+ n Subsequent Alloc. N Subsequent Alloc. n Subsequent Alloc. 
+Description  65   44    99   
+mean  64.15  53.77  60.40 
+std. dev.  25.59  28.30  27.86 
+median  70.00  50.00  60.00 
+Risk Tool 58   45   93   
+mean  74.58  66.66  68.70 
+std. dev.  31.68  28.27  24.97 
+median  84.00  70.00  70.00 
+t-test for the 
+differences 
+between the 
+means 
+ t=2.25  
+p=0.03 
+ t=2.14 
+p=0.04 
+ t=2.17 
+p=0.03 
+ 
+
+--- PAGE 32 ---
+32 
+ 
+Table 8: Subsequent Allocation – Final Allocation 
+This table reports the result of an OLS regression analysis of subsequent allocation – final allocation in 
+Experiment II & III. The sample is limited to when the return was less than the expected return(luck < 0). 
+* indicates significance at the 10% level, ** at the 5% level and *** at the 1% level, income expressed in 
+ten thousands, standard errors in parentheses 
+ 
+Subsequent Allocation – Final Allocation Coefficient 95% Confidence Interval 
+Description * Luck 0.66*** 
+(0.10) 
+0.46 -  0.86 
+Distribution * Luck 0.77*** 
+(0.10) 
+0.34 - 0.66 
+Experience * Luck 0.54*** 
+(0.09) 
+0.36 - 0.72 
+Risk Tool * Luck 0.50*** 
+(0.08) 
+0.34 - 0.66 
+Constant 12.71 
+(1.93) 
+ 
+Observations 319  
+R-Squared 0.23  
+ 
+
+--- PAGE 33 ---
+33 
+ 
+Table 9: Sampling Error and Recency Effects 
+This table reports the results of an OLS regression analysis of allocations to the risky fund (out of $100) 
+in Experiment II & III including indicators to measure a potential sampling error (expected value and 
+standard deviation) and recency effects (average last three draws). * indicates significance at the 10% 
+level, ** at the 5% level and *** at the 1% level.  Standard errors in parentheses. Income is in thousands 
+of dollars. 
+ 
+Allocation (1) (2) (3) (4) 
+     
+Expected Value  0.17 
+(0.14) 
+0.11 
+(0.15) 
+ 
+Standard Deviation   0.26 
+(0.27) 
+ 
+Average last three draws    0.17** 
+(0.07) 
+Experience 8.73*** 
+(3.05) 
+8.71*** 
+(3.05) 
+8.91*** 
+(3.06) 
+8.28*** 
+(3.03) 
+Personal Risk Estimation 6.31** 
+(1.72) 
+6.35*** 
+(1.72) 
+6.22*** 
+(1.72) 
+6.15*** 
+(1.70**) 
+Gender 6.44* 
+(3.44) 
+6.86** 
+(3.45) 
+6.98** 
+(3.45) 
+6.55 
+(3.40) 
+Age 0.04 
+(0.14) 
+0.04 
+(0.14) 
+0.03 
+(0.14) 
+0.06 
+(0.13) 
+Financial Literacy Score 0.19 
+(0.71) 
+0.17 
+(0.71) 
+0.18 
+(0.71) 
+0.11 
+(0.70) 
+Stocks 0.52 
+(3.63) 
+0.74 
+(3.63) 
+0.67 
+(3.64) 
+1.17 
+(3.61) 
+Education 1.05 
+(1.72) 
+0.90 
+(1.73) 
+1.03 
+(1.73) 
+1.05 
+(1.71) 
+Income/1000 -0.02 
+(0.05) 
+-0.02 
+(0.05) 
+-0.03 
+(0.05) 
+-0.03 
+(0.05) 
+Constant 29.42***
+(8.09) 
+3.54  
+(22.17) 
+-1.99   
+(22.93) 
+3.45 
+(12.97) 
+Observations 282 282 282 282 
+R-squared 0.11 0.11 0.11 0.13 
+
+--- PAGE 34 ---
+34 
+ 
+Figure 1: Risk Communication Formats 
+ 
+Figure 1a: Risk communication in the Tool Condition via experience sampling and graphical displays  
+Experience Condition Distribution Condition
+ 
+Figure 1b: Risk communication in the Experience Condition        Figure 1c: Risk communication in the Distribution 
+Condition 
+
+--- PAGE 35 ---
+35 
+ 
+Figure 2: Graphical overview of main results 
+ 
+This figure reports the mean of allocation to the risky fund and significant mediators. Perceived risk and 
+confidence, originally measured on a 7-point scale are multiplied by 10 to facilitate comparison. 
+ 
+ 
+ 
+
+--- PAGE 36 ---
+36 
+ 
+Figure 3: Subsequent Allocation dependent on Investment Success (luck) 
+ 
+Figure 3 reports Subsequent Allocation minus Allocation dependent on luck (outcome of the market 
+simulation minus the expected return), in Experiment II and III combined across all conditions. Outliers 
+are excluded (1% and 99% quantile). Data broken down by condition. 
+ 
+-100 -50 0 50 100-100 -50 0 50 100
+-50 0 50 100 150 -50 0 50 100 150
+Description Experience
+Distribution Risk Tool
+Subsequent Allocation - Allocation
+Luck
+(Actual Return - Expected Return)
+ 
+
+--- PAGE 37 ---
+37 
+ 
+APPENDIX A: Overview of experimental methods 
+ 
+ Experiment I Experiment II Experiment III 
+Conditions    
+Description * * * 
+Experience  * * 
+Distribution  * * 
+Tool * * * 
+Questions    
+Financial Literacy Questions * * * 
+Risk Perception    * 
+Confidence    * 
+Feeling Informed   * 
+Comprehension   * 
+ 
+
+--- PAGE 38 ---
+38 
+ 
+APPENDIX B: Overview of variables and measures 
+ 
+Allocation Variables 
+Initial The first number participants typed in (for the allocation to the risky fund) 
+after they saw the two funds separately. 
+Allocation The allocation to the risky fund (out of €1,000 in Experiment I and $100 in 
+Experiment II and III) they selected after being informed about the 
+diversified portfolio return and standard deviation of the initial allocation 
+Subsequent The subsequent (hypothetical) allocation they made after seeing the results of 
+the market simulation which potentially determined their payoff (how they 
+would choose again if they had the chance).  
+Subsequent - Allocation Differences in (hypotheti cal) subsequent allocation and allocation decision. 
+Condition Dummies  
+Description An indicator variable that equals one if the participant was randomly 
+assigned to the description condition, zero otherwise. 
+Experience An indicator variable that equals one if the participant was randomly 
+assigned to the experience condition, zero otherwise. 
+Distribution An indicator variable that equ als one if the participant was randomly 
+assigned to the distribution condition, zero otherwise. 
+Risk Tool An indicator variable that equ als one if the participant was randomly 
+assigned to the risk tool simulation condition, zero otherwise. 
+Control Variables 
+Risk Attitude Self reported: Please estimate your willingness to take financial risk (1= Not 
+willing to take accept any risk; 5=willing to accept substantial risk to 
+potentially earn a greater return). 
+Financial Literacy Score The score is the sum of the 11 financial literacy questions (highest score 11, 
+lowest 0) adapted from van Rooij, Lusardi & Alessi 2007, a right answer 
+gives one point.  
+Age Age of the participant  
+Gender An indicator variable that equals one if the gender of the participant is male, 
+zero otherwise. 
+Stock Ownership An indicator variable that equals one if subjects own stocks or stock funds, 
+zero otherwise. 
+
+--- PAGE 39 ---
+39 
+ 
+Income Self assessed income of participants in 000 of dollars / euros.  
+Education Self reported, 0=some high school or no high school, 1=high school 
+graduate, 2=specific (trade) school/ some  college/ associate (2 year) degree, 
+3=college graduate, 4=advanced degree 
+Mediating and Comprehension Variables 
+Risk Perception How risky do you perceive fund B (the risky fund) to be? (1=not risky at all, 
+7=very risky) 
+Perceived Return If we put $100 in the riskier fund, what is the expected return of the $100 
+after five years? (Give your best estimate.) Coded to reflect under- and 
+overestimation: -1=$100 - $140, 0=$141 - $180 (correct interval), 1=$181 - 
+$220, 2=$221 - $260, 3=>$260 
+Perceived Loss 
+Probability 
+If we put $100 in the riskier fund, in how man out of 100 cases will the 
+return fall below $100 after five years? In ________ out of 100 cases 
+Upside Potential If we put $100 in the riskier fund, in how man out of 100 cases will the 
+return fall be above $150 after five years? In ________ out of 100 cases 
+Confidence How confident do you feel about investing in the risky fund? (Experiment 
+III); How confident do you feel about your decision (Experiment 1 and 2); 
+1= completely unconfident, 7=completely confident 
+Informed  How informed do you feel about the funds? (1=completely uninformed, 
+7=completely informed). 
+Ex-Post Decision Evaluation 
+Satisfaction Question asked after participants were shown their simulated return after five 
+years: How satisfied are you with your return? (1=completely unsatisfied, 
+7=completely satisfied). 
+Luck A variable measuring the outcome of the market simulation minus the 
+expected return of the final allocation. 
+Experience-Description Gap Robustness Check 
+Expected Value A variable that equals 153 (the objective and stated expected return of the 
+risky fund) in all conditions except the experience condition, where it equals 
+the average sampled return, subjects observed. 
+Standard Deviation A variable that equals the stated standard deviation in the description 
+condition and the standard deviation subjects observed through sampling in 
+the experience condition.  
+ 
+
+--- PAGE 40 ---
+40 
+ 
+APPENDIX C: Overview of experimental conditions 
+ 
+Condition Information Displayed Example 
+Experiments I, II, & III: 
+Description  • numerical description 
+of expected return, 
+standard deviation 
+• frequency information 
+used to capture 
+variation 
+  
+Risk Tool 
+Simulation 
+• an experience 
+sampling simulation 
+begins drawing 
+possible returns  
+• these possible returns 
+populate a distribution 
+ 
+Additional conditions in Experiments II & III: 
+
+--- PAGE 41 ---
+41 
+ 
+Distribution • graphical display and 
+the distribution graph of 
+returns and stated 
+expected return 
+ 
+Experience • participants themselves 
+begin drawing possible 
+returns one by another
+ 
+without building up a 
+distribution function 
+ 
+ 
+ 
+ 
+ 

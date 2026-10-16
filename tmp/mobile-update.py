@@ -1,0 +1,11 @@
+from pathlib import Path
+p=Path('src/index.template.html')
+t=p.read_text(encoding='utf-8')
+t='\n'.join(line for line in t.splitlines() if '<div class="presets"' not in line)
+t=t.replace('<input id="allocation-slider"', '<input id="allocation-slider" aria-describedby="allocation-hint"')
+t=t.replace('<div class="range-labels"><span id="safe-percent">50 % bezpečne</span><span id="risky-percent">50 % v akciách</span></div>', '<div class="range-labels"><span id="safe-percent">50 % bezpečne</span><span id="risky-percent">50 % v akciách</span></div><p id="allocation-hint" class="allocation-hint">Zmena pomeru začne novú sériu.</p>')
+p.write_text(t+'\n',encoding='utf-8')
+p=Path('tests/browser.cjs');t=p.read_text(encoding='utf-8')
+t=t.replace("await page.locator('[data-weight=\"50\"]').click();", "await page.locator('#allocation-slider').fill('50');")
+t=t.replace("await mobile.locator('[data-weight=\"0\"]').click();", "await mobile.locator('#allocation-slider').fill('0');")
+p.write_text(t,encoding='utf-8')

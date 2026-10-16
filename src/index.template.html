@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#4479FF">
+  <meta name="description" content="Vyskúšajte si historické výsledky investovania. Interaktívny experiment na pochopenie rizika a investičného horizontu.">
+  <title>5PEŇAZÍ — Investičný experiment</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M4 4h56v46H40L28 62V50H4z' fill='%234479FF'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-family='Arial,sans-serif' font-weight='bold' font-size='38' fill='white'%3E5%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="engine.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="5PEŇAZÍ a NBS, úvodná stránka"><img src="assets/5penazi-nbs.png" width="260" height="32" alt="5PEŇAZÍ · NBS"></a>
+      <span class="brand-note">Investičný experiment</span>
+      <div class="header-actions">
+        <button class="text-button" id="method-button"><span class="info-icon" aria-hidden="true">i</span> Ako to funguje</button>
+        <button class="icon-button" id="fullscreen-button" aria-label="Celá obrazovka (F)" title="Celá obrazovka (F)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M21 16v5h-5M8 21H3v-5"/></svg></button>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="page-title">
+        <div class="intro-text"><p class="eyebrow">UČÍME SA SKÚSENOSŤOU</p><h1 id="page-title">Čo sa mohlo stať<br> so <span>100 dolármi?</span></h1><p class="intro-copy">Najprv zažite niekoľko možností.<br class="mobile-break"> Potom objavte celý obraz.</p></div>
+        <div class="brand-conversation" aria-hidden="true"><div class="brand-bubble bubble-lilac">MALÝ VKLAD.</div><div class="brand-bubble bubble-sand">VEĽA MOŽNOSTÍ.</div><span class="conversation-caption">S&P 500 · 1966 – 2025<br>Skutočné historické výnosy</span></div>
+      </section>
+
+      <nav class="journey" aria-label="Priebeh experimentu">
+        <button class="journey-step active" id="step-one" aria-current="step"><span class="step-number">01</span><span><strong>Po 1 roku</strong><small>Zažite krátky horizont</small></span><span class="step-state" aria-hidden="true">→</span></button>
+        <div class="journey-connector" aria-hidden="true"></div>
+        <button class="journey-step" id="step-ten" disabled><span class="step-number">02</span><span><strong>Po 10 rokoch</strong><small>Rovnaké začiatky. Viac času.</small></span><span class="step-state" aria-hidden="true">⌑</span></button>
+        <div class="journey-connector" aria-hidden="true"></div>
+        <button class="journey-step" id="step-compare" disabled><span class="step-number">03</span><span><strong>Celý obraz</strong><small>Priemer a percentily</small></span><span class="step-state" aria-hidden="true">⌑</span></button>
+      </nav>
+
+      <div class="workspace">
+        <aside class="allocation panel" aria-labelledby="allocation-title">
+          <div class="section-heading"><span class="section-index">01 / PORTFÓLIO</span><span class="subtle-tag">Jednorazový vklad</span></div>
+          <h2 id="allocation-title">Ako rozdelíte 100 $?</h2>
+          <p class="muted allocation-copy">Vyberte si pomer istoty a rizika.</p>
+          <div class="allocation-amounts"><div><span class="fund-dot safe"></span><span>Bezpečný fond</span><strong id="safe-amount">50 <small>$</small></strong></div><div><span class="fund-dot risky"></span><span>Akciový fond</span><strong id="risky-amount">50 <small>$</small></strong></div></div>
+          <label class="sr-only" for="allocation-slider">Podiel akciového fondu v percentách</label>
+          <input id="allocation-slider" aria-describedby="allocation-hint" type="range" min="0" max="100" step="5" value="50" aria-valuetext="50 percent akcie, 50 percent bezpečný fond">
+          <div class="range-labels"><span id="safe-percent">50 % bezpečne</span><span id="risky-percent">50 % v akciách</span></div><p id="allocation-hint" class="allocation-hint">Zmena pomeru začne novú sériu.</p>
+          <div class="fund-details"><div class="fund-detail"><span class="fund-symbol safe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m12 3 8 3v5c0 5-8 10-8 10S4 16 4 11V6z"/><path d="m8 11 3 3 5-5"/></svg></span><div><strong>Bezpečný fond</strong><small>Model dlhopisového fondu</small></div><span class="rate-tag">3,3 % ročne</span></div><div class="fund-detail"><span class="fund-symbol risky" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m4 17 6-6 4 3 6-9M14 5h6v6"/></svg></span><div><strong>Akciový fond <button id="risky-info-button" class="fund-info-button" type="button" aria-label="Informácie o akciovom fonde" aria-haspopup="dialog">i</button></strong><small>S&P 500 vrátane dividend</small></div><span class="risk-tag">Premenlivý</span></div></div>
+          <p class="model-note">Bezpečný fond má v tomto experimente pevný výnos. Pri skutočných dlhopisoch hodnota kolíše.</p>
+        </aside>
+
+        <section class="experience panel" aria-labelledby="experience-title">
+          <div class="experience-header"><div><span class="section-index" id="experience-kicker">02 / VAŠA SKÚSENOSŤ</span><h2 id="experience-title">Rok dokáže prekvapiť.</h2></div><span class="horizon-pill" id="horizon-pill"><span class="tiny-dot"></span> 1-ročný horizont</span></div>
+          <div id="experience-content"></div>
+        </section>
+      </div>
+      <p class="learning-note"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 21h4M8 14a6 6 0 1 1 8 0c-1 1-1 2-1 2H9s0-1-1-2Z"/></svg><span id="learning-text">Jeden výsledok je príbeh. Viac výsledkov pomáha pochopiť riziko.</span></p>
+    </main>
+    <footer><div><span class="footer-brand"><img src="assets/5penazi-nbs.png" width="195" height="24" alt="5PEŇAZÍ · NBS"></span><span>Experience sampling · didaktický experiment</span></div><p>Zdroj: <a href="https://pages.stern.nyu.edu/adamodar/New_Home_Page/datafile/histretSP.html" target="_blank" rel="noopener noreferrer">Damodaran / NYU Stern</a>. Adaptácia <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1616186" target="_blank" rel="noopener noreferrer">Haisley, Kaufmann & Weber (2010)</a>, pôvodne MSCI USA a 5 rokov.<br>Prekrývajúce sa obdobia · nominálne USD · bez poplatkov, daní a inflácie. Historická frekvencia nie je predpoveďou budúcnosti.</p></footer>
+  </div>
+  <dialog id="method-dialog" aria-labelledby="method-title"><button class="dialog-close icon-button" aria-label="Zavrieť">×</button><p class="eyebrow">O EXPERIMENTE</p><h2 id="method-title">Najprv skúsenosť.<br>Potom štatistika.</h2><p>Rozdeľte jednorazový vklad 100 $ medzi dva fondy. Na každom horizonte absolvujete 5 pokusov. Rozdelenie fondov môžete meniť kedykoľvek; každá zmena vymaže celú sériu a vráti vás na jednoročný horizont. Každý pokus predstavuje samostatnú investíciu, nie pokračovanie predchádzajúcej.</p><ol><li><strong>Najprv 1 rok.</strong> Žrebujeme historický začiatok z rokov 1966 – 2016, bez opakovania v jednej sérii.</li><li><strong>Frekvenčný graf.</strong> Každý klik pridá výsledok do grafu. Po vlastných pokusoch spustite rýchle doplnenie celého rozdelenia s priemerom a percentilmi.</li><li><strong>Potom 10 rokov.</strong> V rovnakom poradí použijeme tie isté začiatky a rovnaké rozdelenie vkladu. Mení sa iba dĺžka držania.</li></ol><h3>Ako počítame</h3><p>Akciová časť rastie ako súčin ročných faktorov <code>(1 + r₁) × … × (1 + rₕ)</code>. Bezpečná časť rastie faktorom <code>1,033ʰ</code>. Konečné hodnoty oboch častí sčítame. Medzi fondmi nerebalansujeme a nepridávame ďalšie vklady.</p><p>Po odhalení ukážeme všetkých 51 historických období s rovnakou váhou. Priemer je aritmetický priemer konečných hodnôt. Percentily používajú lineárnu interpoláciu; stredných 70 % je P15 – P85 a stredných 95 % je P2,5 – P97,5. Krivka iba vyhladzuje histogram, nepredpokladá normálne rozdelenie a nevytvára ďalšie scenáre.</p><h3>Čo porovnávame</h3><p>Pre férové porovnanie používame aj pri 1 roku iba 51 začiatkov 1966 – 2016, nie všetkých 60 samostatných rokov. Desaťročné obdobie zahŕňa počiatočný rok a nasledujúcich 9 rokov.</p><p>Ide o didaktickú adaptáciu, nie presnú replikáciu štúdie z roku 2010. Pôvodný experiment používal MSCI USA, päťročný horizont a iný postup vzorkovania. Bezpečný fond je tu zjednodušený model s výnosom 3,3 % ročne.</p><p class="method-warning">Historické obdobia sa prekrývajú a nie sú nezávislé. Výsledky sú nominálne v USD, bez inflácie, poplatkov a daní. Historická frekvencia nevyjadruje pravdepodobnosť budúceho výsledku.</p><div class="keyboard-help"><kbd>Medzerník</kbd> ďalší pokus / krok <kbd>F</kbd> celá obrazovka <kbd>R</kbd> odznova <kbd>Esc</kbd> zavrieť</div></dialog>
+  <dialog id="risky-fund-dialog" class="fund-info-dialog" aria-label="Informácie o akciovom fonde"><button class="dialog-close icon-button" aria-label="Zavrieť">×</button><p>Priemerný ročný výnos je približne <strong>11,03 %</strong> so smerodajnou odchýlkou <strong>16,82 %</strong> pri jednoročnom horizonte.</p></dialog>
+  <div class="sr-only" role="status" aria-live="polite" aria-atomic="true" id="announcement"></div>
+</body>
+</html>
