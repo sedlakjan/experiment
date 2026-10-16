@@ -7,6 +7,7 @@
   'use strict';
   const ANNUAL_RETURNS = [-0.0997, 0.238, 0.1081, -0.0824, 0.0356, 0.1422, 0.1876, -0.1431, -0.259, 0.37, 0.2383, -0.0698, 0.0651, 0.1852, 0.3174, -0.047, 0.2042, 0.2234, 0.0615, 0.3124, 0.1849, 0.0581, 0.1654, 0.3148, -0.0306, 0.3023, 0.0749, 0.0997, 0.0133, 0.372, 0.2268, 0.331, 0.2834, 0.2089, -0.0903, -0.1185, -0.2197, 0.2836, 0.1074, 0.0483, 0.1561, 0.0548, -0.3655, 0.2594, 0.1482, 0.021, 0.1589, 0.3215, 0.1352, 0.0138, 0.1177, 0.2161, -0.0423, 0.3121, 0.1802, 0.2847, -0.1804, 0.2606, 0.2488, 0.1778];
   const INITIAL = 100;
+  const SIMULATION_DRAWS = 50;
   // Explicit user setting; the supplied JSON's 3.35% reference is not used.
   const SAFE_RATE = 0.033;
   const FIRST_YEAR = 1966;
@@ -32,8 +33,19 @@
     return sorted[i] + (sorted[Math.min(i + 1, sorted.length - 1)] - sorted[i]) * (position - i);
   }
   function stats(horizon, weight) {
-    const observations = scenarios(horizon, weight);
-    const sorted = observations.map(s => s.value).sort((a, b) => a - b);
+    return statsForYears(horizon, weight, START_YEARS);
+  }
+  function sampleYears(count, random = Math.random) {
+    if (!Number.isInteger(count) || count < 0) throw new RangeError('Neplatný počet pokusov.');
+    return Array.from({ length: count }, () => {
+      const value = random();
+      if (!Number.isFinite(value) || value < 0 || value >= 1) throw new RangeError('Neplatná náhodná hodnota.');
+      return START_YEARS[Math.floor(value * START_YEARS.length)];
+    });
+  }
+  function statsForYears(horizon, weight, years) {
+    if (!years.length || !years.every(year => START_YEARS.includes(year))) throw new RangeError('Neplatná vzorka historických začiatkov.');
+    const sorted = years.map(year => terminal(year, horizon, weight)).sort((a, b) => a - b);
     return {
       count: sorted.length,
       mean: sorted.reduce((sum, value) => sum + value, 0) / sorted.length,
@@ -63,5 +75,5 @@
   function density(values, x, bandwidth) {
     return values.reduce((sum, value) => sum + Math.exp(-.5 * ((x - value) / bandwidth) ** 2), 0) / (values.length * bandwidth * Math.sqrt(2 * Math.PI));
   }
-  return Object.freeze({ INITIAL, SAFE_RATE, FIRST_YEAR, START_YEARS, ANNUAL_RETURNS: Object.freeze(ANNUAL_RETURNS), stockFactor, terminal, scenarios, stats, quantile, shuffle, histogram, density });
+  return Object.freeze({ INITIAL, SIMULATION_DRAWS, SAFE_RATE, FIRST_YEAR, START_YEARS, ANNUAL_RETURNS: Object.freeze(ANNUAL_RETURNS), stockFactor, terminal, scenarios, stats, statsForYears, sampleYears, quantile, shuffle, histogram, density });
 });

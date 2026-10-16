@@ -67,11 +67,46 @@ test('percentile interpolation and histogram handle boundaries and the fixed fun
   assert.equal(edgeBins[0].count, 1);
   assert.equal(edgeBins[1].count, 1);
 });
-test('sampling never duplicates a starting year and does not mutate the population', () => {
+test('shuffling the historical population does not mutate it', () => {
   const shuffled = M.shuffle(M.START_YEARS, () => .42);
   assert.equal(new Set(shuffled).size, 51);
   assert.deepEqual([...shuffled].sort((a, b) => a - b), [...M.START_YEARS]);
   assert.equal(M.START_YEARS[0], 1966);
+});
+
+test('simulation draws historical starts with replacement and preserves repeated observations', () => {
+  assert.equal(M.SIMULATION_DRAWS, 50);
+  let calls = 0;
+  const years = M.sampleYears(50, () => { calls++; return 0; });
+  assert.equal(calls, 50);
+  assert.equal(years.length, 50);
+  assert.deepEqual(years, Array(50).fill(1966));
+  assert.deepEqual(M.sampleYears(1, () => .999999), [2016]);
+  assert.deepEqual(M.sampleYears(0), []);
+  assert.equal(M.START_YEARS.length, 51);
+  assert.throws(() => M.sampleYears(-1), RangeError);
+  assert.throws(() => M.sampleYears(1, () => 1), RangeError);
+});
+
+test('simulation mean, percentiles, losses and frequencies use the actual 50 draws', () => {
+  const years = [...Array(25).fill(1999), ...Array(25).fill(2009)];
+  const values = years.map(year => M.terminal(year, 10, 1)).sort((a, b) => a - b);
+  const s = M.statsForYears(10, 1, years);
+  assert.equal(s.count, 50);
+  near(s.mean, values.reduce((sum, value) => sum + value, 0) / 50);
+  near(s.median, (values[24] + values[25]) / 2);
+  near(s.p15, values[0]); near(s.p85, values[49]);
+  assert.equal(s.losses, 25);
+  assert.notEqual(s.mean, M.stats(10, 1).mean);
+  assert.equal(M.histogram(values, 0, 1000).reduce((sum, bin) => sum + bin.count, 0), 50);
+  const other = M.statsForYears(10, 1, Array(50).fill(1966));
+  assert.notEqual(other.mean, s.mean);
+  near(other.min, other.max);
+  const safe = M.statsForYears(10, 0, years);
+  near(safe.mean, 100 * 1.033 ** 10);
+  near(safe.p025, safe.p975);
+  assert.throws(() => M.statsForYears(10, 1, []), RangeError);
+  assert.throws(() => M.statsForYears(10, 1, [2017]), RangeError);
 });
 test('incomplete horizons and invalid allocation values fail explicitly', () => {
   assert.throws(() => M.stockFactor(2017, 10), RangeError);
